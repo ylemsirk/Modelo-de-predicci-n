@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Riesgo Académico</title>
+</head>
+<body>
+  <h2>Predicción de Riesgo Académico</h2>
+
+  <form action="/predict" method="POST">
+    Edad: <input type="number" step="1" name="age" required><br><br>
+
+    Horas en redes: <input type="number" step="0.1" name="usage" required><br><br>
+    
+    Horas de sueño: <input type="number" step="0.1" name="sleep" required><br><br>
+
+    Género:
+    <select name="gender">
+      <option value="male">Masculino</option>
+      <option value="female">Femenino</option>
+    </select><br><br>
+
+    <button type="submit">Predecir</button>
+  </form>
+</body>
+</html>

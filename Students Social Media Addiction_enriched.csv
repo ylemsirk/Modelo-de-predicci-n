@@ -1,0 +1,706 @@
+Student_ID,Age,Gender,Academic_Level,Country,Avg_Daily_Usage_Hours,Most_Used_Platform,Affects_Academic_Performance,Sleep_Hours_Per_Night,Mental_Health_Score,Relationship_Status,Conflicts_Over_Social_Media,Addicted_Score,age_group,usage_level,addiction_risk_level,sleep_deficit_hours,academic_risk_flag,mental_health_risk_level,psycho_social_risk_index,estimated_social_media_exposure_years,global_addiction_trend_index_for_cohort,pandemic_exposure_phase,country_usage_bucket,country_youth_usage_intensity_index
+1,19,Female,Undergraduate,Bangladesh,5.2,Instagram,Yes,6.5,6,In Relationship,3,8,18-19,very_high,addicted,1.5,1,moderate,0.675,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+2,22,Male,Graduate,India,2.1,Twitter,No,7.5,8,Single,0,3,22-24,moderate,no_risk,0.5,0,high,0.385,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+3,20,Female,Undergraduate,USA,6.0,TikTok,Yes,5.0,5,Complicated,4,9,20-21,very_high,addicted,3.0,1,moderate,0.76,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+4,18,Male,High School,UK,3.0,YouTube,No,7.0,7,Single,1,4,18-19,high,no_risk,1.0,0,moderate,0.42000000000000004,5.4,1.0,pandemic_cohort,low,0.16666666666666666
+5,21,Male,Graduate,Canada,4.5,Facebook,Yes,6.0,6,In Relationship,2,7,20-21,high,at_risk,2.0,1,moderate,0.66,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+6,19,Female,Undergraduate,Australia,7.2,Instagram,Yes,4.5,4,Complicated,5,9,18-19,very_high,addicted,3.5,1,low,0.755,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+7,23,Male,Graduate,Germany,1.5,LinkedIn,No,8.0,9,Single,0,2,22-24,moderate,no_risk,0.0,0,high,0.35000000000000003,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+8,20,Female,Undergraduate,Brazil,5.8,Snapchat,Yes,6.0,6,In Relationship,2,8,20-21,very_high,addicted,2.0,1,moderate,0.7000000000000001,7.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+9,18,Male,High School,Japan,4.0,TikTok,No,6.5,7,Single,1,5,18-19,high,no_risk,1.5,1,moderate,0.585,5.4,1.0,pandemic_cohort,low,0.16666666666666666
+10,21,Female,Graduate,South Korea,3.3,Instagram,No,7.0,7,In Relationship,1,4,20-21,high,no_risk,1.0,1,moderate,0.52,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+11,19,Male,Undergraduate,France,4.8,Snapchat,Yes,6.2,5,Complicated,3,7,18-19,high,at_risk,1.7999999999999998,1,moderate,0.62,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+12,20,Female,Undergraduate,Spain,5.5,TikTok,Yes,5.8,6,In Relationship,2,8,20-21,very_high,addicted,2.2,1,moderate,0.7100000000000001,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+13,22,Male,Graduate,Italy,2.8,LinkedIn,No,7.2,8,Single,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+14,18,Female,High School,Mexico,6.5,Instagram,Yes,5.5,5,Single,4,9,18-19,very_high,addicted,2.5,1,moderate,0.735,5.4,1.0,pandemic_cohort,high,0.6666666666666666
+15,21,Male,Undergraduate,Russia,3.7,YouTube,No,6.8,7,In Relationship,2,5,20-21,high,no_risk,1.2000000000000002,1,moderate,0.57,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+16,20,Female,Undergraduate,China,4.2,TikTok,Yes,6.0,6,Complicated,3,7,20-21,high,at_risk,2.0,1,moderate,0.66,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+17,24,Male,Graduate,Sweden,2.0,LinkedIn,No,7.8,8,Single,0,3,22-24,moderate,no_risk,0.20000000000000018,0,high,0.37,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+18,19,Female,High School,Norway,5.0,Instagram,Yes,5.7,5,In Relationship,3,8,18-19,very_high,addicted,2.3,1,moderate,0.685,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+19,21,Male,Undergraduate,Denmark,3.5,Facebook,No,6.7,7,Single,1,5,20-21,high,no_risk,1.2999999999999998,1,moderate,0.575,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+20,20,Female,Undergraduate,Netherlands,4.7,Snapchat,Yes,5.9,6,Complicated,3,7,20-21,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+21,18,Male,High School,Belgium,5.3,TikTok,Yes,5.5,5,Single,4,8,18-19,very_high,addicted,2.5,1,moderate,0.6950000000000001,5.4,1.0,pandemic_cohort,low,0.16666666666666666
+22,23,Female,Graduate,Switzerland,2.5,LinkedIn,No,7.3,8,In Relationship,1,4,22-24,moderate,no_risk,0.7000000000000002,0,high,0.43500000000000005,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+23,19,Male,Undergraduate,Austria,4.9,Instagram,Yes,5.8,6,Complicated,3,7,18-19,high,at_risk,2.2,1,moderate,0.67,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+24,20,Female,Undergraduate,Portugal,5.7,TikTok,Yes,5.4,5,Single,4,8,20-21,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+25,22,Male,Graduate,Greece,3.2,Facebook,No,6.9,7,In Relationship,2,5,22-24,high,no_risk,1.0999999999999996,1,moderate,0.565,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+26,19,Female,High School,Ireland,6.1,Instagram,Yes,5.2,5,Complicated,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+27,21,Male,Undergraduate,New Zealand,3.8,YouTube,No,6.6,7,Single,1,5,20-21,high,no_risk,1.4000000000000004,1,moderate,0.58,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+28,20,Female,Undergraduate,Singapore,4.4,TikTok,Yes,5.9,6,In Relationship,3,7,20-21,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+29,24,Male,Graduate,Malaysia,2.2,LinkedIn,No,7.4,8,Single,0,3,22-24,moderate,no_risk,0.5999999999999996,0,high,0.38999999999999996,11.4,0.7,pre_pandemic_cohort,high,0.6666666666666666
+30,19,Female,High School,Thailand,5.9,Instagram,Yes,5.3,5,Complicated,4,8,18-19,very_high,addicted,2.7,1,moderate,0.7050000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+31,21,Male,Undergraduate,Vietnam,3.6,Facebook,No,6.7,7,Single,1,5,20-21,high,no_risk,1.2999999999999998,1,moderate,0.575,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+32,20,Female,Undergraduate,Philippines,4.8,Snapchat,Yes,5.7,6,In Relationship,3,7,20-21,high,at_risk,2.3,1,moderate,0.6749999999999999,7.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+33,18,Male,High School,Indonesia,5.4,TikTok,Yes,5.4,5,Complicated,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,5.4,1.0,pandemic_cohort,high,0.6666666666666666
+34,23,Female,Graduate,Taiwan,2.6,LinkedIn,No,7.2,8,Single,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+35,19,Male,Undergraduate,Hong Kong,4.7,Instagram,Yes,5.8,6,In Relationship,3,7,18-19,high,at_risk,2.2,1,moderate,0.67,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+36,20,Female,Undergraduate,Turkey,5.6,TikTok,Yes,5.5,5,Complicated,4,8,20-21,very_high,addicted,2.5,1,moderate,0.6950000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+37,22,Male,Graduate,Israel,3.1,Facebook,No,6.8,7,Single,1,5,22-24,high,no_risk,1.2000000000000002,1,moderate,0.57,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+38,19,Female,High School,UAE,6.2,Instagram,Yes,5.1,5,In Relationship,4,9,18-19,very_high,addicted,2.9000000000000004,1,moderate,0.7550000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+39,21,Male,Undergraduate,Egypt,3.9,YouTube,No,6.5,7,Complicated,2,6,20-21,high,at_risk,1.5,1,moderate,0.625,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+40,20,Female,Undergraduate,Morocco,4.5,TikTok,Yes,5.8,6,Single,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+41,24,Male,Graduate,South Africa,2.3,LinkedIn,No,7.3,8,In Relationship,1,4,22-24,moderate,no_risk,0.7000000000000002,0,high,0.43500000000000005,11.4,0.7,pre_pandemic_cohort,very_high,0.8333333333333334
+42,19,Female,High School,Nigeria,5.8,Instagram,Yes,5.4,5,Complicated,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+43,21,Male,Undergraduate,Kenya,3.7,Facebook,No,6.6,7,Single,2,5,20-21,high,no_risk,1.4000000000000004,1,moderate,0.58,8.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+44,20,Female,Undergraduate,Ghana,4.6,Snapchat,Yes,5.7,6,In Relationship,3,7,20-21,high,at_risk,2.3,1,moderate,0.6749999999999999,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+45,18,Male,High School,Argentina,5.5,TikTok,Yes,5.3,5,Single,4,8,18-19,very_high,addicted,2.7,1,moderate,0.7050000000000001,5.4,1.0,pandemic_cohort,high,0.6666666666666666
+46,23,Female,Graduate,Chile,2.7,LinkedIn,No,7.1,8,Complicated,1,4,22-24,moderate,no_risk,0.9000000000000004,0,high,0.44500000000000006,10.4,0.7,pre_pandemic_cohort,very_high,0.8333333333333334
+47,19,Male,Undergraduate,Colombia,4.8,Instagram,Yes,5.9,6,In Relationship,3,7,18-19,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+48,20,Female,Undergraduate,Peru,5.5,TikTok,Yes,5.6,5,Single,4,8,20-21,very_high,addicted,2.4000000000000004,1,moderate,0.6900000000000001,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+49,22,Male,Graduate,Venezuela,3.3,Facebook,No,6.7,7,In Relationship,2,5,22-24,high,no_risk,1.2999999999999998,1,moderate,0.575,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+50,19,Female,High School,Ecuador,6.3,Instagram,Yes,5.2,5,Complicated,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+51,21,Male,Undergraduate,Uruguay,3.8,YouTube,No,6.4,7,Single,2,6,20-21,high,at_risk,1.5999999999999996,1,moderate,0.6299999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+52,20,Female,Undergraduate,Paraguay,4.7,TikTok,Yes,5.8,6,In Relationship,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+53,24,Male,Graduate,Bolivia,2.4,LinkedIn,No,7.2,8,Complicated,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+54,19,Female,High School,Costa Rica,5.7,Instagram,Yes,5.5,5,Single,4,8,18-19,very_high,addicted,2.5,1,moderate,0.6950000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+55,21,Male,Undergraduate,Panama,3.6,Facebook,No,6.5,7,In Relationship,2,5,20-21,high,no_risk,1.5,1,moderate,0.585,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+56,20,Female,Undergraduate,Jamaica,4.9,Snapchat,Yes,5.6,6,Complicated,3,7,20-21,high,at_risk,2.4000000000000004,1,moderate,0.68,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+57,18,Male,High School,Trinidad,5.6,TikTok,Yes,5.2,5,Single,4,8,18-19,very_high,addicted,2.8,1,moderate,0.7100000000000001,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+58,23,Female,Graduate,Bahamas,2.8,LinkedIn,No,7.0,8,In Relationship,1,4,22-24,moderate,no_risk,1.0,0,high,0.45,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+59,19,Male,Undergraduate,Iceland,4.6,Instagram,Yes,5.9,6,Complicated,3,7,18-19,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+60,20,Female,Undergraduate,Finland,5.4,TikTok,Yes,5.7,5,Single,4,8,20-21,very_high,addicted,2.3,1,moderate,0.685,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+61,22,Male,Graduate,Poland,3.1,Facebook,No,7.1,7,Single,1,5,22-24,high,no_risk,0.9000000000000004,1,moderate,0.555,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+62,19,Female,Undergraduate,Romania,5.6,Instagram,Yes,5.6,5,In Relationship,3,8,18-19,very_high,addicted,2.4000000000000004,1,moderate,0.6900000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+63,20,Male,Undergraduate,Hungary,4.2,TikTok,Yes,6.0,6,Complicated,3,7,20-21,high,at_risk,2.0,1,moderate,0.66,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+64,18,Female,High School,Czech Republic,6.1,Snapchat,Yes,5.2,4,Single,4,9,18-19,very_high,addicted,2.8,1,low,0.72,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+65,23,Male,Graduate,Slovakia,2.3,LinkedIn,No,7.4,8,In Relationship,1,3,22-24,moderate,no_risk,0.5999999999999996,0,high,0.38999999999999996,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+66,21,Female,Undergraduate,Croatia,4.8,Instagram,Yes,5.8,6,Single,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+67,20,Male,Undergraduate,Serbia,3.9,YouTube,No,6.5,7,Complicated,2,6,20-21,high,at_risk,1.5,1,moderate,0.625,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+68,19,Female,High School,Slovenia,5.7,TikTok,Yes,5.4,5,In Relationship,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+69,22,Male,Graduate,Bulgaria,2.8,LinkedIn,No,7.2,8,Single,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+70,20,Female,Undergraduate,Estonia,4.5,Instagram,Yes,5.9,6,Complicated,3,7,20-21,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+71,18,Male,High School,Latvia,5.4,Snapchat,Yes,5.5,5,Single,4,8,18-19,very_high,addicted,2.5,1,moderate,0.6950000000000001,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+72,21,Female,Graduate,Lithuania,3.2,Facebook,No,6.8,7,In Relationship,2,5,20-21,high,no_risk,1.2000000000000002,1,moderate,0.57,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+73,19,Male,Undergraduate,Ukraine,4.9,TikTok,Yes,5.7,6,Complicated,3,7,18-19,high,at_risk,2.3,1,moderate,0.6749999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+74,20,Female,Undergraduate,Moldova,5.8,Instagram,Yes,5.3,5,Single,4,8,20-21,very_high,addicted,2.7,1,moderate,0.7050000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+75,23,Male,Graduate,Belarus,2.5,LinkedIn,No,7.3,8,In Relationship,1,4,22-24,moderate,no_risk,0.7000000000000002,0,high,0.43500000000000005,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+76,21,Female,Undergraduate,Kazakhstan,4.6,Snapchat,Yes,5.8,6,Single,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+77,19,Male,High School,Uzbekistan,5.5,TikTok,Yes,5.4,5,Complicated,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+78,22,Female,Graduate,Kyrgyzstan,2.9,Facebook,No,7.0,7,In Relationship,2,5,22-24,moderate,no_risk,1.0,0,moderate,0.45999999999999996,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+79,20,Male,Undergraduate,Tajikistan,4.7,YouTube,Yes,5.9,6,Single,3,7,20-21,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+80,18,Female,High School,Armenia,5.9,Instagram,Yes,5.2,5,Complicated,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+81,21,Male,Graduate,Georgia,3.0,LinkedIn,No,7.1,8,In Relationship,1,4,20-21,high,no_risk,0.9000000000000004,0,high,0.44500000000000006,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+82,19,Female,Undergraduate,Azerbaijan,4.8,TikTok,Yes,5.7,6,Single,3,7,18-19,high,at_risk,2.3,1,moderate,0.6749999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+83,20,Male,Undergraduate,Cyprus,3.8,Facebook,No,6.6,7,Complicated,2,6,20-21,high,at_risk,1.4000000000000004,1,moderate,0.62,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+84,22,Female,Graduate,Malta,2.7,LinkedIn,No,7.2,8,In Relationship,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+85,18,Male,High School,Luxembourg,5.6,Snapchat,Yes,5.3,5,Single,4,8,18-19,very_high,addicted,2.7,1,moderate,0.7050000000000001,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+86,21,Female,Undergraduate,Monaco,4.5,Instagram,Yes,5.8,6,Complicated,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+87,19,Male,High School,Andorra,5.3,TikTok,Yes,5.5,5,In Relationship,4,8,18-19,very_high,addicted,2.5,1,moderate,0.6950000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+88,23,Female,Graduate,San Marino,2.6,LinkedIn,No,7.3,8,Single,1,4,22-24,moderate,no_risk,0.7000000000000002,0,high,0.43500000000000005,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+89,20,Male,Undergraduate,Vatican City,4.4,YouTube,Yes,6.0,6,Complicated,3,7,20-21,high,at_risk,2.0,1,moderate,0.66,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+90,18,Female,High School,Liechtenstein,5.8,Instagram,Yes,5.2,5,Single,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+91,22,Male,Graduate,Montenegro,2.9,Facebook,No,7.0,7,In Relationship,2,5,22-24,moderate,no_risk,1.0,0,moderate,0.45999999999999996,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+92,19,Female,Undergraduate,Albania,4.7,TikTok,Yes,5.8,6,Complicated,3,7,18-19,high,at_risk,2.2,1,moderate,0.67,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+93,21,Male,Undergraduate,North Macedonia,3.7,Snapchat,No,6.5,7,Single,2,6,20-21,high,at_risk,1.5,1,moderate,0.625,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+94,20,Female,High School,Kosovo,5.5,Instagram,Yes,5.4,5,In Relationship,4,8,20-21,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+95,23,Male,Graduate,Bosnia,2.4,LinkedIn,No,7.4,8,Complicated,1,4,22-24,moderate,no_risk,0.5999999999999996,0,high,0.43,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+96,19,Female,Undergraduate,Qatar,4.9,TikTok,Yes,5.7,6,Single,3,7,18-19,high,at_risk,2.3,1,moderate,0.6749999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+97,18,Male,High School,Kuwait,5.7,Snapchat,Yes,5.3,5,In Relationship,4,8,18-19,very_high,addicted,2.7,1,moderate,0.7050000000000001,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+98,22,Female,Graduate,Bahrain,2.8,LinkedIn,No,7.1,8,Complicated,1,4,22-24,moderate,no_risk,0.9000000000000004,0,high,0.44500000000000006,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+99,20,Male,Undergraduate,Oman,4.6,Instagram,Yes,5.9,6,Single,3,7,20-21,high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+100,21,Female,Undergraduate,Jordan,5.4,TikTok,Yes,5.5,5,In Relationship,4,8,20-21,very_high,addicted,2.5,1,moderate,0.6950000000000001,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+101,19,Male,High School,Lebanon,5.8,YouTube,Yes,5.2,5,Complicated,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+102,23,Female,Graduate,Iraq,2.5,LinkedIn,No,7.3,8,Single,1,4,22-24,moderate,no_risk,0.7000000000000002,0,high,0.43500000000000005,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+103,20,Male,Undergraduate,Yemen,4.7,Facebook,Yes,5.8,6,In Relationship,3,7,20-21,high,at_risk,2.2,1,moderate,0.67,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+104,18,Female,High School,Syria,5.6,Instagram,Yes,5.4,5,Single,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,5.4,1.0,pandemic_cohort,medium,0.46111111111111114
+105,22,Male,Graduate,Afghanistan,2.9,LinkedIn,No,7.0,7,Complicated,2,5,22-24,moderate,no_risk,1.0,0,moderate,0.45999999999999996,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+106,19,Female,Undergraduate,Pakistan,4.8,TikTok,Yes,5.7,6,In Relationship,3,7,18-19,high,at_risk,2.3,1,moderate,0.6749999999999999,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+107,21,Male,Undergraduate,Nepal,3.8,YouTube,No,6.6,7,Single,2,6,20-21,high,at_risk,1.4000000000000004,1,moderate,0.62,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+108,20,Female,High School,Bhutan,5.5,Snapchat,Yes,5.5,5,Complicated,4,8,20-21,very_high,addicted,2.5,1,moderate,0.6950000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+109,23,Male,Graduate,Sri Lanka,2.6,LinkedIn,No,7.2,8,In Relationship,1,4,22-24,moderate,no_risk,0.7999999999999998,0,high,0.44,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+110,19,Female,Undergraduate,Maldives,4.9,Instagram,Yes,5.8,6,Single,3,7,18-19,high,at_risk,2.2,1,moderate,0.67,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+111,20,Male,Undergraduate,Bangladesh,6.1,Instagram,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+112,21,Female,Undergraduate,India,5.8,TikTok,Yes,5.9,6,In Relationship,3,7,20-21,very_high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+113,19,Male,Undergraduate,Nepal,4.9,Facebook,No,7.1,7,Single,2,5,18-19,high,no_risk,0.9000000000000004,1,moderate,0.555,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+114,22,Female,Graduate,Pakistan,5.5,Instagram,Yes,6.0,5,Single,4,8,22-24,very_high,addicted,2.0,1,moderate,0.67,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+115,20,Male,Undergraduate,Sri Lanka,5.2,TikTok,Yes,6.3,6,In Relationship,3,7,20-21,very_high,at_risk,1.7000000000000002,1,moderate,0.6449999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+116,19,Female,Undergraduate,Maldives,4.8,Instagram,No,7.2,8,Single,2,5,18-19,high,no_risk,0.7999999999999998,1,high,0.58,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+117,21,Male,Graduate,Bangladesh,6.0,Facebook,Yes,5.8,5,In Relationship,4,8,20-21,very_high,addicted,2.2,1,moderate,0.68,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+118,20,Female,Undergraduate,India,5.7,Instagram,Yes,6.1,6,Single,3,7,20-21,very_high,at_risk,1.9000000000000004,1,moderate,0.6549999999999999,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+119,22,Male,Graduate,Nepal,4.7,TikTok,No,7.3,7,Single,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+120,19,Female,Undergraduate,Pakistan,5.4,Instagram,Yes,6.2,5,In Relationship,4,8,18-19,very_high,addicted,1.7999999999999998,1,moderate,0.66,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+121,20,Male,Undergraduate,Sri Lanka,5.9,Facebook,Yes,5.9,6,Single,3,7,20-21,very_high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+122,21,Female,Graduate,Maldives,4.6,Instagram,No,7.4,8,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,high,0.57,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+123,19,Male,Undergraduate,Bangladesh,5.3,TikTok,Yes,6.3,5,Single,4,8,18-19,very_high,addicted,1.7000000000000002,1,moderate,0.655,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+124,22,Female,Graduate,India,5.8,Instagram,Yes,5.8,6,In Relationship,3,7,22-24,very_high,at_risk,2.2,1,moderate,0.67,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+125,20,Male,Undergraduate,Nepal,4.5,Facebook,No,7.5,7,Single,2,5,20-21,high,no_risk,0.5,1,moderate,0.535,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+126,21,Female,Graduate,Pakistan,5.2,Instagram,Yes,6.4,5,In Relationship,4,8,20-21,very_high,addicted,1.5999999999999996,1,moderate,0.65,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+127,19,Male,Undergraduate,Sri Lanka,5.7,TikTok,Yes,5.7,6,Single,3,7,18-19,very_high,at_risk,2.3,1,moderate,0.6749999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+128,20,Female,Undergraduate,Maldives,4.4,Instagram,No,7.6,8,In Relationship,2,5,20-21,high,no_risk,0.40000000000000036,1,high,0.56,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+129,22,Male,Graduate,Bangladesh,5.1,Facebook,Yes,6.5,5,Single,4,8,22-24,very_high,addicted,1.5,1,moderate,0.645,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+130,21,Female,Graduate,India,5.6,Instagram,Yes,5.6,6,In Relationship,3,7,20-21,very_high,at_risk,2.4000000000000004,1,moderate,0.68,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+131,19,Male,Undergraduate,Nepal,4.3,TikTok,No,7.7,7,Single,2,5,18-19,high,no_risk,0.2999999999999998,1,moderate,0.525,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+132,20,Female,Undergraduate,Pakistan,5.0,Instagram,Yes,6.6,5,In Relationship,4,8,20-21,very_high,addicted,1.4000000000000004,1,moderate,0.64,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+133,22,Male,Graduate,Sri Lanka,5.5,Facebook,Yes,5.5,6,Single,3,7,22-24,very_high,at_risk,2.5,1,moderate,0.6849999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+134,21,Female,Graduate,Maldives,4.2,Instagram,No,7.8,8,In Relationship,2,5,20-21,high,no_risk,0.20000000000000018,1,high,0.55,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+135,19,Male,Undergraduate,Bangladesh,4.9,TikTok,Yes,6.7,5,Single,4,8,18-19,high,addicted,1.2999999999999998,1,moderate,0.635,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+136,20,Female,Undergraduate,India,5.4,Instagram,Yes,5.4,6,In Relationship,3,7,20-21,very_high,at_risk,2.5999999999999996,1,moderate,0.6899999999999998,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+137,22,Male,Graduate,Nepal,4.1,Facebook,No,7.9,7,Single,2,5,22-24,high,no_risk,0.09999999999999964,1,moderate,0.515,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+138,21,Female,Graduate,Pakistan,4.8,Instagram,Yes,6.8,5,In Relationship,4,8,20-21,high,addicted,1.2000000000000002,1,moderate,0.63,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+139,19,Male,Undergraduate,Sri Lanka,5.3,TikTok,Yes,5.3,6,Single,3,7,18-19,very_high,at_risk,2.7,1,moderate,0.695,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+140,20,Female,Undergraduate,Maldives,4.0,Instagram,No,8.0,8,In Relationship,2,5,20-21,high,no_risk,0.0,1,high,0.54,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+141,22,Male,Graduate,Bangladesh,4.7,Facebook,Yes,6.9,5,Single,4,8,22-24,high,addicted,1.0999999999999996,1,moderate,0.625,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+142,21,Female,Graduate,India,5.2,Instagram,Yes,5.2,6,In Relationship,3,7,20-21,very_high,at_risk,2.8,1,moderate,0.6999999999999998,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+143,19,Male,Undergraduate,Nepal,3.9,TikTok,No,8.1,7,Single,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+144,20,Female,Undergraduate,Pakistan,4.6,Instagram,Yes,7.0,5,In Relationship,4,8,20-21,high,addicted,1.0,1,moderate,0.62,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+145,22,Male,Graduate,Sri Lanka,5.1,Facebook,Yes,5.1,6,Single,3,7,22-24,very_high,at_risk,2.9000000000000004,1,moderate,0.705,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+146,21,Female,Graduate,Maldives,3.8,Instagram,No,8.2,8,In Relationship,2,5,20-21,high,no_risk,0.0,1,high,0.54,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+147,19,Male,Undergraduate,Bangladesh,4.5,TikTok,Yes,7.1,5,Single,4,8,18-19,high,addicted,0.9000000000000004,1,moderate,0.6150000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+148,20,Female,Undergraduate,India,5.0,Instagram,Yes,5.0,6,In Relationship,3,7,20-21,very_high,at_risk,3.0,1,moderate,0.71,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+149,22,Male,Graduate,Nepal,3.7,Facebook,No,8.3,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+150,21,Female,Graduate,Pakistan,4.4,Instagram,Yes,7.2,5,In Relationship,4,8,20-21,high,addicted,0.7999999999999998,1,moderate,0.61,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+151,19,Male,Undergraduate,Sri Lanka,4.9,TikTok,Yes,4.9,6,Single,3,7,18-19,high,at_risk,3.0999999999999996,1,moderate,0.715,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+152,20,Female,Undergraduate,Maldives,3.6,Instagram,No,8.4,8,In Relationship,2,5,20-21,high,no_risk,0.0,1,high,0.54,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+153,22,Male,Graduate,Bangladesh,4.3,Facebook,Yes,7.3,5,Single,4,8,22-24,high,addicted,0.7000000000000002,1,moderate,0.6050000000000001,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+154,21,Female,Graduate,India,4.8,Instagram,Yes,4.8,6,In Relationship,3,7,20-21,high,at_risk,3.2,1,moderate,0.72,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+155,19,Male,Undergraduate,Nepal,3.5,TikTok,No,8.5,7,Single,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+156,20,Female,Undergraduate,Pakistan,4.2,Instagram,Yes,7.4,5,In Relationship,4,8,20-21,high,addicted,0.5999999999999996,1,moderate,0.6,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+157,22,Male,Graduate,Sri Lanka,4.7,Facebook,Yes,4.7,6,Single,3,7,22-24,high,at_risk,3.3,1,moderate,0.725,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+158,21,Female,Graduate,Maldives,3.4,Instagram,No,8.6,8,In Relationship,2,5,20-21,high,no_risk,0.0,1,high,0.54,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+159,19,Male,Undergraduate,Bangladesh,4.1,TikTok,Yes,7.5,5,Single,4,8,18-19,high,addicted,0.5,1,moderate,0.5950000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+160,20,Female,Undergraduate,India,4.6,Instagram,Yes,4.6,6,In Relationship,3,7,20-21,high,at_risk,3.4000000000000004,1,moderate,0.73,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+161,19,Female,Undergraduate,Bangladesh,5.3,Instagram,Yes,6.1,5,Single,3,7,18-19,very_high,at_risk,1.9000000000000004,1,moderate,0.625,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+162,21,Male,Graduate,India,4.8,Facebook,No,7.2,7,In Relationship,2,6,20-21,high,at_risk,0.7999999999999998,1,moderate,0.59,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+163,20,Female,Undergraduate,Nepal,5.5,TikTok,Yes,5.9,6,Single,4,8,20-21,very_high,addicted,2.0999999999999996,1,moderate,0.705,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+164,22,Male,Graduate,Pakistan,4.7,Instagram,Yes,6.3,5,In Relationship,3,7,22-24,high,at_risk,1.7000000000000002,1,moderate,0.615,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+165,19,Female,Undergraduate,Sri Lanka,5.1,Facebook,No,7.0,7,Single,2,5,18-19,very_high,no_risk,1.0,1,moderate,0.5599999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+166,21,Male,Graduate,Maldives,5.4,TikTok,Yes,6.0,6,In Relationship,4,8,20-21,very_high,addicted,2.0,1,moderate,0.7000000000000001,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+167,20,Female,Undergraduate,Bangladesh,4.9,Instagram,Yes,6.4,5,Single,3,7,20-21,high,at_risk,1.5999999999999996,1,moderate,0.61,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+168,22,Male,Graduate,India,5.2,Facebook,No,7.1,7,In Relationship,2,6,22-24,very_high,at_risk,0.9000000000000004,1,moderate,0.595,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+169,19,Female,Undergraduate,Nepal,5.6,TikTok,Yes,5.8,6,Single,4,8,18-19,very_high,addicted,2.2,1,moderate,0.7100000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+170,21,Male,Graduate,Pakistan,4.6,Instagram,Yes,6.5,5,In Relationship,3,7,20-21,high,at_risk,1.5,1,moderate,0.605,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+171,20,Female,Undergraduate,Sri Lanka,5.0,Facebook,No,7.3,7,Single,2,5,20-21,very_high,no_risk,0.7000000000000002,1,moderate,0.545,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+172,22,Male,Graduate,Maldives,5.3,TikTok,Yes,5.7,6,In Relationship,4,8,22-24,very_high,addicted,2.3,1,moderate,0.715,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+173,19,Female,Undergraduate,Bangladesh,4.8,Instagram,Yes,6.6,5,Single,3,7,18-19,high,at_risk,1.4000000000000004,1,moderate,0.6,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+174,21,Male,Graduate,India,5.1,Facebook,No,7.4,7,In Relationship,2,6,20-21,very_high,at_risk,0.5999999999999996,1,moderate,0.58,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+175,20,Female,Undergraduate,Nepal,5.7,TikTok,Yes,5.6,6,Single,4,8,20-21,very_high,addicted,2.4000000000000004,1,moderate,0.7200000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+176,22,Male,Graduate,Pakistan,4.5,Instagram,Yes,6.7,5,In Relationship,3,7,22-24,high,at_risk,1.2999999999999998,1,moderate,0.595,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+177,19,Female,Undergraduate,Sri Lanka,4.9,Facebook,No,7.5,7,Single,2,5,18-19,high,no_risk,0.5,1,moderate,0.535,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+178,21,Male,Graduate,Maldives,5.2,TikTok,Yes,5.5,6,In Relationship,4,8,20-21,very_high,addicted,2.5,1,moderate,0.725,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+179,20,Female,Undergraduate,Bangladesh,4.7,Instagram,Yes,6.8,5,Single,3,7,20-21,high,at_risk,1.2000000000000002,1,moderate,0.59,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+180,22,Male,Graduate,India,5.0,Facebook,No,7.6,7,In Relationship,2,6,22-24,very_high,at_risk,0.40000000000000036,1,moderate,0.57,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+181,19,Female,Undergraduate,Nepal,5.8,TikTok,Yes,5.4,6,Single,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7300000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+182,21,Male,Graduate,Pakistan,4.4,Instagram,Yes,6.9,5,In Relationship,3,7,20-21,high,at_risk,1.0999999999999996,1,moderate,0.585,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+183,20,Female,Undergraduate,Sri Lanka,4.8,Facebook,No,7.7,7,Single,2,5,20-21,high,no_risk,0.2999999999999998,1,moderate,0.525,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+184,22,Male,Graduate,Maldives,5.1,TikTok,Yes,5.3,6,In Relationship,4,8,22-24,very_high,addicted,2.7,1,moderate,0.735,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+185,19,Female,Undergraduate,Bangladesh,4.6,Instagram,Yes,7.0,5,Single,3,7,18-19,high,at_risk,1.0,1,moderate,0.58,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+186,21,Male,Graduate,India,4.9,Facebook,No,7.8,7,In Relationship,2,6,20-21,high,at_risk,0.20000000000000018,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+187,20,Female,Undergraduate,Nepal,5.9,TikTok,Yes,5.2,6,Single,4,8,20-21,very_high,addicted,2.8,1,moderate,0.7400000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+188,22,Male,Graduate,Pakistan,4.3,Instagram,Yes,7.1,5,In Relationship,3,7,22-24,high,at_risk,0.9000000000000004,1,moderate,0.575,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+189,19,Female,Undergraduate,Sri Lanka,4.7,Facebook,No,7.9,7,Single,2,5,18-19,high,no_risk,0.09999999999999964,1,moderate,0.515,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+190,21,Male,Graduate,Maldives,5.0,TikTok,Yes,5.1,6,In Relationship,4,8,20-21,very_high,addicted,2.9000000000000004,1,moderate,0.745,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+191,20,Female,Undergraduate,Bangladesh,4.5,Instagram,Yes,7.2,5,Single,3,7,20-21,high,at_risk,0.7999999999999998,1,moderate,0.57,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+192,22,Male,Graduate,India,4.8,Facebook,No,8.0,7,In Relationship,2,6,22-24,high,at_risk,0.0,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+193,19,Female,Undergraduate,Nepal,6.0,TikTok,Yes,5.0,6,Single,4,8,18-19,very_high,addicted,3.0,1,moderate,0.7500000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+194,21,Male,Graduate,Pakistan,4.2,Instagram,Yes,7.3,5,In Relationship,3,7,20-21,high,at_risk,0.7000000000000002,1,moderate,0.565,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+195,20,Female,Undergraduate,Sri Lanka,4.6,Facebook,No,8.1,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+196,22,Male,Graduate,Maldives,4.9,TikTok,Yes,4.9,6,In Relationship,4,8,22-24,high,addicted,3.0999999999999996,1,moderate,0.755,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+197,19,Female,Undergraduate,Bangladesh,4.4,Instagram,Yes,7.4,5,Single,3,7,18-19,high,at_risk,0.5999999999999996,1,moderate,0.5599999999999999,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+198,21,Male,Graduate,India,4.7,Facebook,No,8.2,7,In Relationship,2,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+199,20,Female,Undergraduate,Nepal,6.1,TikTok,Yes,4.8,6,Single,4,8,20-21,very_high,addicted,3.2,1,moderate,0.7600000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+200,22,Male,Graduate,Pakistan,4.1,Instagram,Yes,7.5,5,In Relationship,3,7,22-24,high,at_risk,0.5,1,moderate,0.5549999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+201,19,Female,Undergraduate,Sri Lanka,4.5,Facebook,No,8.3,7,Single,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+202,21,Male,Graduate,Maldives,4.8,TikTok,Yes,4.7,6,In Relationship,4,8,20-21,high,addicted,3.3,1,moderate,0.765,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+203,20,Female,Undergraduate,Bangladesh,4.3,Instagram,Yes,7.6,5,Single,3,7,20-21,high,at_risk,0.40000000000000036,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+204,22,Male,Graduate,India,4.6,Facebook,No,8.4,7,In Relationship,2,6,22-24,high,at_risk,0.0,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+205,19,Female,Undergraduate,Nepal,6.2,TikTok,Yes,4.6,6,Single,4,8,18-19,very_high,addicted,3.4000000000000004,1,moderate,0.7700000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+206,21,Male,Graduate,Pakistan,4.0,Instagram,Yes,7.7,5,In Relationship,3,7,20-21,high,at_risk,0.2999999999999998,1,moderate,0.5449999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+207,20,Female,Undergraduate,Sri Lanka,4.4,Facebook,No,8.5,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+208,22,Male,Graduate,Maldives,4.7,TikTok,Yes,4.5,6,In Relationship,4,8,22-24,high,addicted,3.5,1,moderate,0.775,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+209,19,Female,Undergraduate,Bangladesh,4.2,Instagram,Yes,7.8,5,Single,3,7,18-19,high,at_risk,0.20000000000000018,1,moderate,0.5399999999999999,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+210,21,Male,Graduate,India,4.5,Facebook,No,8.6,7,In Relationship,2,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+211,20,Female,Undergraduate,Nepal,6.3,TikTok,Yes,4.4,6,Single,4,8,20-21,very_high,addicted,3.5999999999999996,1,moderate,0.7799999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+212,22,Male,Graduate,Pakistan,3.9,Instagram,Yes,7.9,5,In Relationship,3,7,22-24,high,at_risk,0.09999999999999964,1,moderate,0.5349999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+213,19,Female,Undergraduate,Sri Lanka,4.3,Facebook,No,8.7,7,Single,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+214,21,Male,Graduate,Maldives,4.6,TikTok,Yes,4.3,6,In Relationship,4,8,20-21,high,addicted,3.7,1,moderate,0.785,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+215,20,Female,Undergraduate,Bangladesh,4.1,Instagram,Yes,8.0,5,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5299999999999999,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+216,22,Male,Graduate,India,4.4,Facebook,No,8.8,7,In Relationship,2,6,22-24,high,at_risk,0.0,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+217,19,Female,Undergraduate,Nepal,6.4,TikTok,Yes,4.2,6,Single,4,8,18-19,very_high,addicted,3.8,1,moderate,0.7899999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+218,21,Male,Graduate,Pakistan,3.8,Instagram,Yes,8.1,5,In Relationship,3,7,20-21,high,at_risk,0.0,1,moderate,0.5299999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+219,20,Female,Undergraduate,Sri Lanka,4.2,Facebook,No,8.9,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+220,22,Male,Graduate,Maldives,4.5,TikTok,Yes,4.1,6,In Relationship,4,8,22-24,high,addicted,3.9000000000000004,1,moderate,0.795,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+221,19,Female,Undergraduate,USA,6.5,Instagram,Yes,6.0,5,Single,4,9,18-19,very_high,addicted,2.0,1,moderate,0.7100000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+222,21,Male,Graduate,UK,5.8,TikTok,Yes,6.5,6,In Relationship,3,7,20-21,very_high,at_risk,1.5,1,moderate,0.6349999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+223,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.5,8,Single,2,5,20-21,high,no_risk,0.5,1,high,0.565,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+224,22,Male,Graduate,Germany,4.2,Facebook,No,7.8,7,In Relationship,2,4,22-24,high,no_risk,0.20000000000000018,1,moderate,0.48,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+225,19,Female,Undergraduate,Japan,3.8,LINE,No,7.9,8,Single,1,3,18-19,high,no_risk,0.09999999999999964,1,high,0.46499999999999997,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+226,21,Male,Graduate,Italy,5.5,Instagram,Yes,6.8,6,Single,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.62,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+227,20,Female,Undergraduate,South Korea,5.2,KakaoTalk,Yes,6.5,6,In Relationship,3,6,20-21,very_high,at_risk,1.5,1,moderate,0.595,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+228,22,Male,Graduate,Russia,4.8,VKontakte,No,7.2,7,Single,2,5,22-24,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+229,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.8,4,In Relationship,4,9,18-19,very_high,addicted,2.2,1,low,0.6900000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+230,21,Male,Graduate,UK,5.5,Instagram,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+231,20,Female,Undergraduate,Australia,4.7,Facebook,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+232,22,Male,Graduate,Germany,4.0,Instagram,No,7.9,8,Single,1,4,22-24,high,no_risk,0.09999999999999964,1,high,0.505,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+233,19,Female,Undergraduate,Japan,3.5,LINE,No,8.0,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+234,21,Male,Graduate,Italy,5.7,TikTok,Yes,6.5,5,In Relationship,3,8,20-21,very_high,addicted,1.5,1,moderate,0.645,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+235,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.8,6,Single,3,6,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.58,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+236,22,Male,Graduate,Russia,4.5,VKontakte,No,7.4,7,In Relationship,2,5,22-24,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+237,19,Female,Undergraduate,USA,6.8,Instagram,Yes,5.9,4,Single,4,9,18-19,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+238,21,Male,Graduate,UK,5.6,Facebook,Yes,6.6,6,In Relationship,3,7,20-21,very_high,at_risk,1.4000000000000004,1,moderate,0.63,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+239,20,Female,Undergraduate,Australia,4.6,Instagram,No,7.3,7,Single,2,5,20-21,high,no_risk,0.7000000000000002,1,moderate,0.545,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+240,22,Male,Graduate,Germany,4.1,Facebook,No,7.7,8,In Relationship,2,4,22-24,high,no_risk,0.2999999999999998,1,high,0.515,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+241,19,Female,Undergraduate,Japan,3.7,LINE,No,7.8,8,Single,1,3,18-19,high,no_risk,0.20000000000000018,1,high,0.47,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+242,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.595,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+243,20,Female,Undergraduate,South Korea,5.1,KakaoTalk,Yes,6.6,6,In Relationship,3,6,20-21,very_high,at_risk,1.4000000000000004,1,moderate,0.59,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+244,22,Male,Graduate,Russia,4.7,VKontakte,No,7.3,7,Single,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+245,19,Female,Undergraduate,USA,6.9,TikTok,Yes,5.7,4,In Relationship,4,9,18-19,very_high,addicted,2.3,1,low,0.695,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+246,21,Male,Graduate,UK,5.7,Instagram,Yes,6.4,6,Single,3,7,20-21,very_high,at_risk,1.5999999999999996,1,moderate,0.64,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+247,20,Female,Undergraduate,Australia,4.8,Facebook,No,7.2,7,In Relationship,2,5,20-21,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+248,22,Male,Graduate,Germany,3.9,Instagram,No,7.8,8,Single,1,4,22-24,high,no_risk,0.20000000000000018,1,high,0.51,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+249,19,Female,Undergraduate,Japan,3.6,LINE,No,8.1,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+250,21,Male,Graduate,Italy,5.6,TikTok,Yes,6.6,5,In Relationship,3,8,20-21,very_high,addicted,1.4000000000000004,1,moderate,0.64,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+251,20,Female,Undergraduate,South Korea,4.9,KakaoTalk,Yes,6.9,6,Single,3,6,20-21,high,at_risk,1.0999999999999996,1,moderate,0.575,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+252,22,Male,Graduate,Russia,4.6,VKontakte,No,7.5,7,In Relationship,2,5,22-24,high,no_risk,0.5,1,moderate,0.535,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+253,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.8,4,Single,4,9,18-19,very_high,addicted,2.2,1,low,0.6900000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+254,21,Male,Graduate,UK,5.4,Facebook,Yes,6.5,6,In Relationship,3,7,20-21,very_high,at_risk,1.5,1,moderate,0.6349999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+255,20,Female,Undergraduate,Australia,4.4,Instagram,No,7.4,7,Single,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+256,22,Male,Graduate,Germany,4.0,Facebook,No,7.6,8,In Relationship,2,4,22-24,high,no_risk,0.40000000000000036,1,high,0.52,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+257,19,Female,Undergraduate,Japan,3.4,LINE,No,8.2,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+258,21,Male,Graduate,Italy,5.3,Instagram,Yes,6.8,5,Single,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.59,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+259,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.7,6,In Relationship,3,6,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.585,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+260,22,Male,Graduate,Russia,4.4,VKontakte,No,7.6,7,Single,2,5,22-24,high,no_risk,0.40000000000000036,1,moderate,0.53,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+261,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.6,4,In Relationship,4,9,18-19,very_high,addicted,2.4000000000000004,1,low,0.7000000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+262,21,Male,Graduate,UK,5.3,Instagram,Yes,6.3,6,Single,3,7,20-21,very_high,at_risk,1.7000000000000002,1,moderate,0.6449999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+263,20,Female,Undergraduate,Australia,4.3,Facebook,No,7.5,7,In Relationship,2,5,20-21,high,no_risk,0.5,1,moderate,0.535,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+264,22,Male,Graduate,Germany,3.8,Instagram,No,7.7,8,Single,1,4,22-24,high,no_risk,0.2999999999999998,1,high,0.515,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+265,19,Female,Undergraduate,Japan,3.3,LINE,No,8.3,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+266,21,Male,Graduate,Italy,5.2,TikTok,Yes,6.9,5,In Relationship,3,8,20-21,very_high,addicted,1.0999999999999996,1,moderate,0.625,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+267,20,Female,Undergraduate,South Korea,4.8,KakaoTalk,Yes,7.0,6,Single,3,6,20-21,high,at_risk,1.0,1,moderate,0.57,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+268,22,Male,Graduate,Russia,4.3,VKontakte,No,7.7,7,In Relationship,2,5,22-24,high,no_risk,0.2999999999999998,1,moderate,0.525,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+269,19,Female,Undergraduate,USA,6.4,Instagram,Yes,5.7,4,Single,4,9,18-19,very_high,addicted,2.3,1,low,0.695,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+270,21,Male,Graduate,UK,5.2,Facebook,Yes,6.4,6,In Relationship,3,7,20-21,very_high,at_risk,1.5999999999999996,1,moderate,0.64,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+271,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.3,7,Single,2,5,20-21,high,no_risk,0.7000000000000002,1,moderate,0.545,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+272,22,Male,Graduate,Germany,3.7,Facebook,No,7.8,8,In Relationship,1,4,22-24,high,no_risk,0.20000000000000018,1,high,0.51,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+273,19,Female,Undergraduate,Japan,3.2,LINE,No,8.4,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+274,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.595,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+275,20,Female,Undergraduate,South Korea,4.7,KakaoTalk,Yes,7.1,6,In Relationship,3,6,20-21,high,at_risk,0.9000000000000004,1,moderate,0.5650000000000001,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+276,22,Male,Graduate,Russia,4.2,VKontakte,No,7.8,7,Single,2,5,22-24,high,no_risk,0.20000000000000018,1,moderate,0.52,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+277,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.5,4,In Relationship,4,9,18-19,very_high,addicted,2.5,1,low,0.705,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+278,21,Male,Graduate,UK,5.1,Instagram,Yes,6.5,6,Single,3,7,20-21,very_high,at_risk,1.5,1,moderate,0.6349999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+279,20,Female,Undergraduate,Australia,4.4,Facebook,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+280,22,Male,Graduate,Germany,3.6,Instagram,No,7.9,8,Single,1,4,22-24,high,no_risk,0.09999999999999964,1,high,0.505,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+281,19,Female,Undergraduate,Japan,3.1,LINE,No,8.5,8,Single,1,3,18-19,high,no_risk,0.0,1,high,0.45999999999999996,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+282,21,Male,Graduate,Italy,5.3,TikTok,Yes,6.8,5,In Relationship,3,8,20-21,very_high,addicted,1.2000000000000002,1,moderate,0.63,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+283,20,Female,Undergraduate,South Korea,4.6,KakaoTalk,Yes,7.2,6,Single,3,6,20-21,high,at_risk,0.7999999999999998,1,moderate,0.5599999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+284,22,Male,Graduate,Russia,4.1,VKontakte,No,7.9,7,In Relationship,2,5,22-24,high,no_risk,0.09999999999999964,1,moderate,0.515,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+285,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.4,4,Single,4,9,18-19,very_high,addicted,2.5999999999999996,1,low,0.71,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+286,21,Male,Graduate,UK,5.0,Facebook,Yes,6.6,6,In Relationship,3,7,20-21,very_high,at_risk,1.4000000000000004,1,moderate,0.63,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+287,20,Female,Undergraduate,Australia,4.3,Instagram,No,7.5,7,Single,2,5,20-21,high,no_risk,0.5,1,moderate,0.535,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+288,22,Male,Graduate,Germany,3.5,Facebook,No,8.0,8,In Relationship,1,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+289,19,Female,Undergraduate,Japan,3.0,LINE,No,8.6,8,Single,1,3,18-19,high,no_risk,0.0,0,high,0.36,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+290,21,Male,Graduate,Italy,5.2,Instagram,Yes,6.9,5,Single,3,7,20-21,very_high,at_risk,1.0999999999999996,1,moderate,0.585,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+291,20,Female,Undergraduate,South Korea,4.5,KakaoTalk,Yes,7.3,6,In Relationship,3,6,20-21,high,at_risk,0.7000000000000002,1,moderate,0.555,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+292,22,Male,Graduate,Russia,4.0,VKontakte,No,8.0,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+293,19,Female,Undergraduate,USA,6.8,TikTok,Yes,5.3,4,In Relationship,4,9,18-19,very_high,addicted,2.7,1,low,0.715,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+294,21,Male,Graduate,UK,4.9,Instagram,Yes,6.7,6,Single,3,7,20-21,high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+295,20,Female,Undergraduate,Australia,4.2,Facebook,No,7.6,7,In Relationship,2,5,20-21,high,no_risk,0.40000000000000036,1,moderate,0.53,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+296,22,Male,Graduate,Germany,3.4,Instagram,No,8.1,8,Single,1,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+297,19,Female,Undergraduate,Japan,2.9,LINE,No,8.7,8,Single,1,3,18-19,moderate,no_risk,0.0,0,high,0.36,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+298,21,Male,Graduate,Italy,5.1,TikTok,Yes,7.0,5,In Relationship,3,8,20-21,very_high,addicted,1.0,1,moderate,0.62,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+299,20,Female,Undergraduate,South Korea,4.4,KakaoTalk,Yes,7.4,6,Single,3,6,20-21,high,at_risk,0.5999999999999996,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+300,22,Male,Graduate,Russia,3.9,VKontakte,No,8.1,7,In Relationship,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+301,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.2,4,Single,4,9,18-19,very_high,addicted,2.8,1,low,0.72,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+302,21,Male,Graduate,UK,4.8,Facebook,Yes,6.8,6,In Relationship,3,7,20-21,high,at_risk,1.2000000000000002,1,moderate,0.62,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+303,20,Female,Undergraduate,Australia,4.1,Instagram,No,7.7,7,Single,2,5,20-21,high,no_risk,0.2999999999999998,1,moderate,0.525,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+304,22,Male,Graduate,Germany,3.3,Facebook,No,8.2,8,In Relationship,1,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+305,19,Female,Undergraduate,Japan,2.8,LINE,No,8.8,8,Single,1,3,18-19,moderate,no_risk,0.0,0,high,0.36,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+306,21,Male,Graduate,Italy,5.0,Instagram,Yes,7.1,5,Single,3,7,20-21,very_high,at_risk,0.9000000000000004,1,moderate,0.575,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+307,20,Female,Undergraduate,South Korea,4.3,KakaoTalk,Yes,7.5,6,In Relationship,3,6,20-21,high,at_risk,0.5,1,moderate,0.545,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+308,22,Male,Graduate,Russia,3.8,VKontakte,No,8.2,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+309,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.1,4,In Relationship,4,9,18-19,very_high,addicted,2.9000000000000004,1,low,0.7250000000000001,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+310,21,Male,Graduate,UK,4.7,Instagram,Yes,6.9,6,Single,3,7,20-21,high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+311,20,Female,Undergraduate,Australia,4.0,Facebook,No,7.8,7,In Relationship,2,5,20-21,high,no_risk,0.20000000000000018,1,moderate,0.52,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+312,22,Male,Graduate,Germany,3.2,Instagram,No,8.3,8,Single,1,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+313,19,Female,Undergraduate,Japan,2.7,LINE,No,8.9,8,Single,1,3,18-19,moderate,no_risk,0.0,0,high,0.36,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+314,21,Male,Graduate,Italy,4.9,TikTok,Yes,7.2,5,In Relationship,3,8,20-21,high,addicted,0.7999999999999998,1,moderate,0.61,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+315,20,Female,Undergraduate,South Korea,4.2,KakaoTalk,Yes,7.6,6,Single,3,6,20-21,high,at_risk,0.40000000000000036,1,moderate,0.54,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+316,22,Male,Graduate,Russia,3.7,VKontakte,No,8.3,7,In Relationship,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+317,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.0,4,Single,4,9,18-19,very_high,addicted,3.0,1,low,0.73,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+318,21,Male,Graduate,UK,4.6,Facebook,Yes,7.0,6,In Relationship,3,7,20-21,high,at_risk,1.0,1,moderate,0.61,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+319,20,Female,Undergraduate,Australia,3.9,Instagram,No,7.9,7,Single,2,5,20-21,high,no_risk,0.09999999999999964,1,moderate,0.515,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+320,22,Male,Graduate,Germany,3.1,Facebook,No,8.4,8,In Relationship,1,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+321,19,Female,Undergraduate,Spain,5.2,Instagram,Yes,6.8,6,Single,3,7,18-19,very_high,at_risk,1.2000000000000002,1,moderate,0.62,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+322,21,Male,Graduate,Denmark,4.1,Facebook,No,7.8,8,In Relationship,2,4,20-21,high,no_risk,0.20000000000000018,1,high,0.51,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+323,20,Female,Undergraduate,Ireland,5.0,Instagram,Yes,7.0,7,Single,3,6,20-21,very_high,at_risk,1.0,1,moderate,0.6,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+324,22,Male,Graduate,India,5.8,WhatsApp,Yes,6.5,5,In Relationship,4,8,22-24,very_high,addicted,1.5,1,moderate,0.645,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+325,19,Female,Undergraduate,Switzerland,4.0,Instagram,No,7.9,8,Single,2,4,18-19,high,no_risk,0.09999999999999964,1,high,0.505,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+326,21,Male,Graduate,Turkey,5.5,Instagram,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+327,20,Female,Undergraduate,USA,6.8,TikTok,Yes,5.5,5,In Relationship,4,9,20-21,very_high,addicted,2.5,1,moderate,0.735,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+328,22,Male,Graduate,Mexico,5.6,WhatsApp,Yes,6.6,6,Single,3,7,22-24,very_high,at_risk,1.4000000000000004,1,moderate,0.63,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+329,19,Female,Undergraduate,France,4.5,Instagram,No,7.5,7,In Relationship,2,5,18-19,high,no_risk,0.5,1,moderate,0.535,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+330,21,Male,Graduate,Canada,5.3,Instagram,Yes,6.9,6,Single,3,7,20-21,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+331,20,Female,Undergraduate,Spain,5.1,TikTok,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+332,22,Male,Graduate,Denmark,3.9,Facebook,No,7.9,8,In Relationship,2,4,22-24,high,no_risk,0.09999999999999964,1,high,0.505,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+333,19,Female,Undergraduate,Ireland,4.8,Instagram,Yes,7.1,7,Single,3,6,18-19,high,at_risk,0.9000000000000004,1,moderate,0.595,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+334,21,Male,Graduate,India,5.9,WhatsApp,Yes,6.4,5,In Relationship,4,8,20-21,very_high,addicted,1.5999999999999996,1,moderate,0.65,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+335,20,Female,Undergraduate,Switzerland,3.8,Instagram,No,8.0,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+336,22,Male,Graduate,Turkey,5.4,TikTok,Yes,6.8,6,Single,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+337,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.4,5,In Relationship,4,9,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.74,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+338,21,Male,Graduate,Mexico,5.7,WhatsApp,Yes,6.5,6,Single,3,7,20-21,very_high,at_risk,1.5,1,moderate,0.6349999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+339,20,Female,Undergraduate,France,4.4,Instagram,No,7.6,7,In Relationship,2,5,20-21,high,no_risk,0.40000000000000036,1,moderate,0.53,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+340,22,Male,Graduate,Canada,5.2,TikTok,Yes,7.0,6,Single,3,7,22-24,very_high,at_risk,1.0,1,moderate,0.61,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+341,19,Female,Undergraduate,Spain,5.0,Instagram,Yes,6.9,6,Single,3,7,18-19,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+342,21,Male,Graduate,Denmark,3.8,Facebook,No,8.0,8,In Relationship,2,4,20-21,high,no_risk,0.0,1,high,0.5,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+343,20,Female,Undergraduate,Ireland,4.7,TikTok,Yes,7.2,7,Single,3,6,20-21,high,at_risk,0.7999999999999998,1,moderate,0.59,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+344,22,Male,Graduate,India,6.0,WhatsApp,Yes,6.3,5,In Relationship,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+345,19,Female,Undergraduate,Switzerland,3.7,Instagram,No,8.1,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+346,21,Male,Graduate,Turkey,5.3,Instagram,Yes,6.9,6,Single,3,7,20-21,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+347,20,Female,Undergraduate,USA,7.0,TikTok,Yes,5.3,5,In Relationship,4,9,20-21,very_high,addicted,2.7,1,moderate,0.745,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+348,22,Male,Graduate,Mexico,5.8,WhatsApp,Yes,6.4,6,Single,3,7,22-24,very_high,at_risk,1.5999999999999996,1,moderate,0.64,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+349,19,Female,Undergraduate,France,4.3,Instagram,No,7.7,7,In Relationship,2,5,18-19,high,no_risk,0.2999999999999998,1,moderate,0.525,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+350,21,Male,Graduate,Canada,5.1,Instagram,Yes,7.1,6,Single,3,7,20-21,very_high,at_risk,0.9000000000000004,1,moderate,0.605,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+351,20,Female,Undergraduate,Spain,4.9,TikTok,Yes,7.0,6,Single,3,7,20-21,high,at_risk,1.0,1,moderate,0.61,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+352,22,Male,Graduate,Denmark,3.7,Facebook,No,8.1,8,In Relationship,2,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+353,19,Female,Undergraduate,Ireland,4.6,Instagram,Yes,7.3,7,Single,3,6,18-19,high,at_risk,0.7000000000000002,1,moderate,0.585,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+354,21,Male,Graduate,India,6.1,WhatsApp,Yes,6.2,5,In Relationship,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+355,20,Female,Undergraduate,Switzerland,3.6,Instagram,No,8.2,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+356,22,Male,Graduate,Turkey,5.2,TikTok,Yes,7.0,6,Single,3,7,22-24,very_high,at_risk,1.0,1,moderate,0.61,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+357,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.2,5,In Relationship,4,9,18-19,very_high,addicted,2.8,1,moderate,0.75,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+358,21,Male,Graduate,Mexico,5.9,WhatsApp,Yes,6.3,6,Single,3,7,20-21,very_high,at_risk,1.7000000000000002,1,moderate,0.6449999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+359,20,Female,Undergraduate,France,4.2,Instagram,No,7.8,7,In Relationship,2,5,20-21,high,no_risk,0.20000000000000018,1,moderate,0.52,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+360,22,Male,Graduate,Canada,5.0,TikTok,Yes,7.2,6,Single,3,7,22-24,very_high,at_risk,0.7999999999999998,1,moderate,0.6,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+361,19,Female,Undergraduate,Spain,4.8,Instagram,Yes,7.1,6,Single,3,7,18-19,high,at_risk,0.9000000000000004,1,moderate,0.605,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+362,21,Male,Graduate,Denmark,3.6,Facebook,No,8.2,8,In Relationship,2,4,20-21,high,no_risk,0.0,1,high,0.5,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+363,20,Female,Undergraduate,Ireland,4.5,TikTok,Yes,7.4,7,Single,3,6,20-21,high,at_risk,0.5999999999999996,1,moderate,0.58,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+364,22,Male,Graduate,India,6.2,WhatsApp,Yes,6.1,5,In Relationship,4,8,22-24,very_high,addicted,1.9000000000000004,1,moderate,0.665,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+365,19,Female,Undergraduate,Switzerland,3.5,Instagram,No,8.3,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+366,21,Male,Graduate,Turkey,5.1,Instagram,Yes,7.1,6,Single,3,7,20-21,very_high,at_risk,0.9000000000000004,1,moderate,0.605,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+367,20,Female,Undergraduate,USA,7.2,TikTok,Yes,5.1,5,In Relationship,4,9,20-21,very_high,addicted,2.9000000000000004,1,moderate,0.7550000000000001,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+368,22,Male,Graduate,Mexico,6.0,WhatsApp,Yes,6.2,6,Single,3,7,22-24,very_high,at_risk,1.7999999999999998,1,moderate,0.65,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+369,19,Female,Undergraduate,France,4.1,Instagram,No,7.9,7,In Relationship,2,5,18-19,high,no_risk,0.09999999999999964,1,moderate,0.515,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+370,21,Male,Graduate,Canada,4.9,Instagram,Yes,7.3,6,Single,3,7,20-21,high,at_risk,0.7000000000000002,1,moderate,0.595,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+371,20,Female,Undergraduate,Spain,4.7,TikTok,Yes,7.2,6,Single,3,7,20-21,high,at_risk,0.7999999999999998,1,moderate,0.6,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+372,22,Male,Graduate,Denmark,3.5,Facebook,No,8.3,8,In Relationship,2,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+373,19,Female,Undergraduate,Ireland,4.4,Instagram,Yes,7.5,7,Single,3,6,18-19,high,at_risk,0.5,1,moderate,0.575,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+374,21,Male,Graduate,India,6.3,WhatsApp,Yes,6.0,5,In Relationship,4,8,20-21,very_high,addicted,2.0,1,moderate,0.67,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+375,20,Female,Undergraduate,Switzerland,3.4,Instagram,No,8.4,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+376,22,Male,Graduate,Turkey,5.0,TikTok,Yes,7.2,6,Single,3,7,22-24,very_high,at_risk,0.7999999999999998,1,moderate,0.6,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+377,19,Female,Undergraduate,USA,7.3,Instagram,Yes,5.0,5,In Relationship,4,9,18-19,very_high,addicted,3.0,1,moderate,0.76,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+378,21,Male,Graduate,Mexico,6.1,WhatsApp,Yes,6.1,6,Single,3,7,20-21,very_high,at_risk,1.9000000000000004,1,moderate,0.6549999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+379,20,Female,Undergraduate,France,4.0,Instagram,No,8.0,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+380,22,Male,Graduate,Canada,4.8,TikTok,Yes,7.4,6,Single,3,7,22-24,high,at_risk,0.5999999999999996,1,moderate,0.59,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+381,19,Female,Undergraduate,Spain,4.6,Instagram,Yes,7.3,6,Single,3,7,18-19,high,at_risk,0.7000000000000002,1,moderate,0.595,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+382,21,Male,Graduate,Denmark,3.4,Facebook,No,8.4,8,In Relationship,2,4,20-21,high,no_risk,0.0,1,high,0.5,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+383,20,Female,Undergraduate,Ireland,4.3,TikTok,Yes,7.6,7,Single,3,6,20-21,high,at_risk,0.40000000000000036,1,moderate,0.57,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+384,22,Male,Graduate,India,6.4,WhatsApp,Yes,5.9,5,In Relationship,4,8,22-24,very_high,addicted,2.0999999999999996,1,moderate,0.675,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+385,19,Female,Undergraduate,Switzerland,3.3,Instagram,No,8.5,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+386,21,Male,Graduate,Turkey,4.9,Instagram,Yes,7.3,6,Single,3,7,20-21,high,at_risk,0.7000000000000002,1,moderate,0.595,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+387,20,Female,Undergraduate,USA,7.4,TikTok,Yes,4.9,5,In Relationship,4,9,20-21,very_high,addicted,3.0999999999999996,1,moderate,0.765,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+388,22,Male,Graduate,Mexico,6.2,WhatsApp,Yes,6.0,6,Single,3,7,22-24,very_high,at_risk,2.0,1,moderate,0.66,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+389,19,Female,Undergraduate,France,3.9,Instagram,No,8.1,7,In Relationship,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+390,21,Male,Graduate,Canada,4.7,Instagram,Yes,7.5,6,Single,3,7,20-21,high,at_risk,0.5,1,moderate,0.585,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+391,20,Female,Undergraduate,Spain,4.5,TikTok,Yes,7.4,6,Single,3,7,20-21,high,at_risk,0.5999999999999996,1,moderate,0.59,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+392,22,Male,Graduate,Denmark,3.3,Facebook,No,8.5,8,In Relationship,2,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+393,19,Female,Undergraduate,Ireland,4.2,Instagram,Yes,7.7,7,Single,3,6,18-19,high,at_risk,0.2999999999999998,1,moderate,0.565,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+394,21,Male,Graduate,India,6.5,WhatsApp,Yes,5.8,5,In Relationship,4,8,20-21,very_high,addicted,2.2,1,moderate,0.68,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+395,20,Female,Undergraduate,Switzerland,3.2,Instagram,No,8.6,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+396,22,Male,Graduate,Turkey,4.8,TikTok,Yes,7.4,6,Single,3,7,22-24,high,at_risk,0.5999999999999996,1,moderate,0.59,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+397,19,Female,Undergraduate,USA,7.5,Instagram,Yes,4.8,5,In Relationship,4,9,18-19,very_high,addicted,3.2,1,moderate,0.77,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+398,21,Male,Graduate,Mexico,6.3,WhatsApp,Yes,5.9,6,Single,3,7,20-21,very_high,at_risk,2.0999999999999996,1,moderate,0.6649999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+399,20,Female,Undergraduate,France,3.8,Instagram,No,8.2,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+400,22,Male,Graduate,Canada,4.6,TikTok,Yes,7.6,6,Single,3,7,22-24,high,at_risk,0.40000000000000036,1,moderate,0.58,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+401,19,Female,Undergraduate,Spain,4.4,Instagram,Yes,7.5,6,Single,3,7,18-19,high,at_risk,0.5,1,moderate,0.585,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+402,21,Male,Graduate,Denmark,3.2,Facebook,No,8.6,8,In Relationship,2,4,20-21,high,no_risk,0.0,1,high,0.5,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+403,20,Female,Undergraduate,Ireland,4.1,TikTok,Yes,7.8,7,Single,3,6,20-21,high,at_risk,0.20000000000000018,1,moderate,0.5599999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+404,22,Male,Graduate,India,6.6,WhatsApp,Yes,5.7,5,In Relationship,4,8,22-24,very_high,addicted,2.3,1,moderate,0.685,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+405,19,Female,Undergraduate,Switzerland,3.1,Instagram,No,8.7,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+406,21,Male,Graduate,Turkey,4.7,Instagram,Yes,7.5,6,Single,3,7,20-21,high,at_risk,0.5,1,moderate,0.585,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+407,20,Female,Undergraduate,USA,7.6,TikTok,Yes,4.7,5,In Relationship,4,9,20-21,very_high,addicted,3.3,1,moderate,0.775,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+408,22,Male,Graduate,Mexico,6.4,WhatsApp,Yes,5.8,6,Single,3,7,22-24,very_high,at_risk,2.2,1,moderate,0.67,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+409,19,Female,Undergraduate,France,3.7,Instagram,No,8.3,7,In Relationship,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+410,21,Male,Graduate,Canada,4.5,Instagram,Yes,7.7,6,Single,3,7,20-21,high,at_risk,0.2999999999999998,1,moderate,0.575,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+411,20,Female,Undergraduate,Spain,4.3,TikTok,Yes,7.6,6,Single,3,7,20-21,high,at_risk,0.40000000000000036,1,moderate,0.58,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+412,22,Male,Graduate,Denmark,3.1,Facebook,No,8.7,8,In Relationship,2,4,22-24,high,no_risk,0.0,1,high,0.5,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+413,19,Female,Undergraduate,Ireland,4.0,Instagram,Yes,7.9,7,Single,3,6,18-19,high,at_risk,0.09999999999999964,1,moderate,0.5549999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+414,21,Male,Graduate,India,6.7,WhatsApp,Yes,5.6,5,In Relationship,4,8,20-21,very_high,addicted,2.4000000000000004,1,moderate,0.6900000000000001,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+415,20,Female,Undergraduate,Switzerland,3.0,Instagram,No,8.8,8,Single,2,4,20-21,high,no_risk,0.0,0,high,0.4,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+416,22,Male,Graduate,Turkey,4.6,TikTok,Yes,7.6,6,Single,3,7,22-24,high,at_risk,0.40000000000000036,1,moderate,0.58,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+417,19,Female,Undergraduate,USA,7.7,Instagram,Yes,4.6,5,In Relationship,4,9,18-19,very_high,addicted,3.4000000000000004,1,moderate,0.78,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+418,21,Male,Graduate,Mexico,6.5,WhatsApp,Yes,5.7,6,Single,3,7,20-21,very_high,at_risk,2.3,1,moderate,0.6749999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+419,20,Female,Undergraduate,France,3.6,Instagram,No,8.4,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+420,22,Male,Graduate,Canada,4.4,TikTok,Yes,7.8,6,Single,3,7,22-24,high,at_risk,0.20000000000000018,1,moderate,0.57,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+421,19,Female,Undergraduate,Spain,4.2,Instagram,Yes,7.7,6,Single,3,7,18-19,high,at_risk,0.2999999999999998,1,moderate,0.575,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+422,21,Male,Graduate,Denmark,3.0,Facebook,No,8.8,8,In Relationship,2,4,20-21,high,no_risk,0.0,0,high,0.4,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+423,20,Female,Undergraduate,Ireland,3.9,TikTok,Yes,8.0,7,Single,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+424,22,Male,Graduate,India,6.8,WhatsApp,Yes,5.5,5,In Relationship,4,8,22-24,very_high,addicted,2.5,1,moderate,0.6950000000000001,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+425,19,Female,Undergraduate,Switzerland,2.9,Instagram,No,8.9,8,Single,2,4,18-19,moderate,no_risk,0.0,0,high,0.4,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+426,21,Male,Graduate,Turkey,4.5,Instagram,Yes,7.7,6,Single,3,7,20-21,high,at_risk,0.2999999999999998,1,moderate,0.575,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+427,20,Female,Undergraduate,USA,7.8,TikTok,Yes,4.5,5,In Relationship,4,9,20-21,very_high,addicted,3.5,1,moderate,0.785,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+428,22,Male,Graduate,Mexico,6.6,WhatsApp,Yes,5.6,6,Single,3,7,22-24,very_high,at_risk,2.4000000000000004,1,moderate,0.68,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+429,19,Female,Undergraduate,France,3.5,Instagram,No,8.5,7,In Relationship,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+430,21,Male,Graduate,Canada,4.3,Instagram,Yes,7.9,6,Single,3,7,20-21,high,at_risk,0.09999999999999964,1,moderate,0.565,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+431,20,Female,Undergraduate,Spain,4.1,TikTok,Yes,7.8,6,Single,3,7,20-21,high,at_risk,0.20000000000000018,1,moderate,0.57,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+432,22,Male,Graduate,Denmark,2.9,Facebook,No,8.9,8,In Relationship,2,4,22-24,moderate,no_risk,0.0,0,high,0.4,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+433,19,Female,Undergraduate,Ireland,3.8,Instagram,Yes,8.1,7,Single,3,6,18-19,high,at_risk,0.0,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+434,21,Male,Graduate,India,6.9,WhatsApp,Yes,5.4,5,In Relationship,4,8,20-21,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+435,20,Female,Undergraduate,Switzerland,2.8,Instagram,No,9.0,8,Single,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+436,22,Male,Graduate,Turkey,4.4,TikTok,Yes,7.8,6,Single,3,7,22-24,high,at_risk,0.20000000000000018,1,moderate,0.57,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+437,19,Female,Undergraduate,USA,7.9,Instagram,Yes,4.4,5,In Relationship,4,9,18-19,very_high,addicted,3.5999999999999996,1,moderate,0.79,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+438,21,Male,Graduate,Mexico,6.7,WhatsApp,Yes,5.5,6,Single,3,7,20-21,very_high,at_risk,2.5,1,moderate,0.6849999999999999,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+439,20,Female,Undergraduate,France,3.4,Instagram,No,8.6,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+440,22,Male,Graduate,Canada,4.2,TikTok,Yes,8.0,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+441,19,Female,Undergraduate,Spain,4.0,Instagram,Yes,7.9,6,Single,3,7,18-19,high,at_risk,0.09999999999999964,1,moderate,0.565,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+442,21,Male,Graduate,Denmark,2.8,Facebook,No,9.0,8,In Relationship,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+443,20,Female,Undergraduate,Ireland,3.7,TikTok,Yes,8.2,7,Single,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+444,22,Male,Graduate,India,7.0,WhatsApp,Yes,5.3,5,In Relationship,4,8,22-24,very_high,addicted,2.7,1,moderate,0.7050000000000001,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+445,19,Female,Undergraduate,Switzerland,2.7,Instagram,No,9.1,8,Single,2,4,18-19,moderate,no_risk,0.0,0,high,0.4,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+446,21,Male,Graduate,Turkey,4.3,Instagram,Yes,7.9,6,Single,3,7,20-21,high,at_risk,0.09999999999999964,1,moderate,0.565,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+447,20,Female,Undergraduate,USA,8.0,TikTok,Yes,4.3,5,In Relationship,4,9,20-21,very_high,addicted,3.7,1,moderate,0.795,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+448,22,Male,Graduate,Mexico,6.8,WhatsApp,Yes,5.4,6,Single,3,7,22-24,very_high,at_risk,2.5999999999999996,1,moderate,0.6899999999999998,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+449,19,Female,Undergraduate,France,3.3,Instagram,No,8.7,7,In Relationship,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+450,21,Male,Graduate,Canada,4.1,Instagram,Yes,8.1,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+451,20,Female,Undergraduate,Spain,3.9,TikTok,Yes,8.0,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+452,22,Male,Graduate,Denmark,2.7,Facebook,No,9.1,8,In Relationship,2,4,22-24,moderate,no_risk,0.0,0,high,0.4,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+453,19,Female,Undergraduate,Ireland,3.6,Instagram,Yes,8.3,7,Single,3,6,18-19,high,at_risk,0.0,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+454,21,Male,Graduate,India,7.1,WhatsApp,Yes,5.2,5,In Relationship,4,8,20-21,very_high,addicted,2.8,1,moderate,0.7100000000000001,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+455,20,Female,Undergraduate,Switzerland,2.6,Instagram,No,9.2,8,Single,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+456,22,Male,Graduate,Turkey,4.2,TikTok,Yes,8.0,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+457,19,Female,Undergraduate,USA,8.1,Instagram,Yes,4.2,5,In Relationship,4,9,18-19,very_high,addicted,3.8,1,moderate,0.8,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+458,21,Male,Graduate,Mexico,6.9,WhatsApp,Yes,5.3,6,Single,3,7,20-21,very_high,at_risk,2.7,1,moderate,0.695,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+459,20,Female,Undergraduate,France,3.2,Instagram,No,8.8,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+460,22,Male,Graduate,Canada,4.0,TikTok,Yes,8.2,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+461,19,Female,Undergraduate,Spain,3.8,Instagram,Yes,8.1,6,Single,3,7,18-19,high,at_risk,0.0,1,moderate,0.5599999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+462,21,Male,Graduate,Denmark,2.6,Facebook,No,9.2,8,In Relationship,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+463,20,Female,Undergraduate,Ireland,3.5,TikTok,Yes,8.4,7,Single,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+464,22,Male,Graduate,India,7.2,WhatsApp,Yes,5.1,5,In Relationship,4,8,22-24,very_high,addicted,2.9000000000000004,1,moderate,0.7150000000000001,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+465,19,Female,Undergraduate,Switzerland,2.5,Instagram,No,9.3,8,Single,2,4,18-19,moderate,no_risk,0.0,0,high,0.4,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+466,21,Male,Graduate,Turkey,4.1,Instagram,Yes,8.1,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+467,20,Female,Undergraduate,USA,8.2,TikTok,Yes,4.1,5,In Relationship,4,9,20-21,very_high,addicted,3.9000000000000004,1,moderate,0.805,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+468,22,Male,Graduate,Mexico,7.0,WhatsApp,Yes,5.2,6,Single,3,7,22-24,very_high,at_risk,2.8,1,moderate,0.6999999999999998,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+469,19,Female,Undergraduate,France,3.1,Instagram,No,8.9,7,In Relationship,2,5,18-19,high,no_risk,0.0,1,moderate,0.51,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+470,21,Male,Graduate,Canada,3.9,Instagram,Yes,8.3,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+471,20,Female,Undergraduate,Spain,3.7,TikTok,Yes,8.2,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+472,22,Male,Graduate,Denmark,2.5,Facebook,No,9.3,8,In Relationship,2,4,22-24,moderate,no_risk,0.0,0,high,0.4,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+473,19,Female,Undergraduate,Ireland,3.4,Instagram,Yes,8.5,7,Single,3,6,18-19,high,at_risk,0.0,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+474,21,Male,Graduate,India,7.3,WhatsApp,Yes,5.0,5,In Relationship,4,8,20-21,very_high,addicted,3.0,1,moderate,0.7200000000000001,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+475,20,Female,Undergraduate,Switzerland,2.4,Instagram,No,9.4,8,Single,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+476,22,Male,Graduate,Turkey,4.0,TikTok,Yes,8.2,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+477,19,Female,Undergraduate,USA,8.3,Instagram,Yes,4.0,5,In Relationship,4,9,18-19,very_high,addicted,4.0,1,moderate,0.81,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+478,21,Male,Graduate,Mexico,7.1,WhatsApp,Yes,5.1,6,Single,3,7,20-21,very_high,at_risk,2.9000000000000004,1,moderate,0.705,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+479,20,Female,Undergraduate,France,3.0,Instagram,No,9.0,7,In Relationship,2,5,20-21,high,no_risk,0.0,0,moderate,0.41000000000000003,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+480,22,Male,Graduate,Canada,3.8,TikTok,Yes,8.4,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+481,19,Female,Undergraduate,Spain,3.6,Instagram,Yes,8.3,6,Single,3,7,18-19,high,at_risk,0.0,1,moderate,0.5599999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+482,21,Male,Graduate,Denmark,2.4,Facebook,No,9.4,8,In Relationship,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+483,20,Female,Undergraduate,Ireland,3.3,TikTok,Yes,8.6,7,Single,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+484,22,Male,Graduate,India,7.4,WhatsApp,Yes,4.9,5,In Relationship,4,8,22-24,very_high,addicted,3.0999999999999996,1,moderate,0.7250000000000001,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+485,19,Female,Undergraduate,Switzerland,2.3,Instagram,No,9.5,8,Single,2,4,18-19,moderate,no_risk,0.0,0,high,0.4,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+486,21,Male,Graduate,Turkey,3.9,Instagram,Yes,8.3,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+487,20,Female,Undergraduate,USA,8.4,TikTok,Yes,3.9,5,In Relationship,4,9,20-21,very_high,addicted,4.1,1,moderate,0.81,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+488,22,Male,Graduate,Mexico,7.2,WhatsApp,Yes,5.0,6,Single,3,7,22-24,very_high,at_risk,3.0,1,moderate,0.71,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+489,19,Female,Undergraduate,France,2.9,Instagram,No,9.1,7,In Relationship,2,5,18-19,moderate,no_risk,0.0,0,moderate,0.41000000000000003,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+490,21,Male,Graduate,Canada,3.7,Instagram,Yes,8.5,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+491,20,Female,Undergraduate,Spain,3.5,TikTok,Yes,8.4,6,Single,3,7,20-21,high,at_risk,0.0,1,moderate,0.5599999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+492,22,Male,Graduate,Denmark,2.3,Facebook,No,9.5,8,In Relationship,2,4,22-24,moderate,no_risk,0.0,0,high,0.4,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+493,19,Female,Undergraduate,Ireland,3.2,Instagram,Yes,8.7,7,Single,3,6,18-19,high,at_risk,0.0,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+494,21,Male,Graduate,India,7.5,WhatsApp,Yes,4.8,5,In Relationship,4,8,20-21,very_high,addicted,3.2,1,moderate,0.7300000000000001,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+495,20,Female,Undergraduate,Switzerland,2.2,Instagram,No,9.6,8,Single,2,4,20-21,moderate,no_risk,0.0,0,high,0.4,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+496,22,Male,Graduate,Turkey,3.8,TikTok,Yes,8.4,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+497,19,Female,Undergraduate,USA,8.5,Instagram,Yes,3.8,5,In Relationship,4,9,18-19,very_high,addicted,4.2,1,moderate,0.81,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+498,21,Male,Graduate,Mexico,7.3,WhatsApp,Yes,4.9,6,Single,3,7,20-21,very_high,at_risk,3.0999999999999996,1,moderate,0.715,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+499,20,Female,Undergraduate,France,2.8,Instagram,No,9.2,7,In Relationship,2,5,20-21,moderate,no_risk,0.0,0,moderate,0.41000000000000003,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+500,22,Male,Graduate,Canada,3.6,TikTok,Yes,8.6,6,Single,3,7,22-24,high,at_risk,0.0,1,moderate,0.5599999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+501,19,Female,Undergraduate,Brazil,6.2,WhatsApp,Yes,6.3,6,Single,3,7,18-19,very_high,at_risk,1.7000000000000002,1,moderate,0.6449999999999999,6.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+502,21,Male,Graduate,China,4.5,WeChat,No,7.8,7,In Relationship,2,5,20-21,high,no_risk,0.20000000000000018,1,moderate,0.52,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+503,20,Female,Undergraduate,Netherlands,3.8,Instagram,No,8.2,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+504,22,Male,Graduate,New Zealand,4.7,Instagram,Yes,7.5,7,In Relationship,3,6,22-24,high,at_risk,0.5,1,moderate,0.575,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+505,19,Female,Undergraduate,Singapore,5.1,TikTok,Yes,7.0,6,Single,3,7,18-19,very_high,at_risk,1.0,1,moderate,0.61,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+506,21,Male,Graduate,Malaysia,5.5,WhatsApp,Yes,6.8,6,Single,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.62,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+507,20,Female,Undergraduate,UAE,6.5,Instagram,Yes,6.5,5,In Relationship,4,8,20-21,very_high,addicted,1.5,1,moderate,0.645,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+508,22,Male,Graduate,Poland,4.2,Facebook,No,7.9,7,Single,2,5,22-24,high,no_risk,0.09999999999999964,1,moderate,0.515,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+509,19,Female,Undergraduate,India,6.8,WhatsApp,Yes,6.0,5,In Relationship,4,8,18-19,very_high,addicted,2.0,1,moderate,0.67,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+510,21,Male,Graduate,Canada,4.8,Instagram,Yes,7.4,7,Single,3,6,20-21,high,at_risk,0.5999999999999996,1,moderate,0.58,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+511,20,Female,Undergraduate,Brazil,6.1,Instagram,Yes,6.4,6,Single,3,7,20-21,very_high,at_risk,1.5999999999999996,1,moderate,0.64,7.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+512,22,Male,Graduate,China,4.4,WeChat,No,7.9,7,In Relationship,2,5,22-24,high,no_risk,0.09999999999999964,1,moderate,0.515,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+513,19,Female,Undergraduate,Netherlands,3.7,TikTok,No,8.3,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+514,21,Male,Graduate,New Zealand,4.6,Instagram,Yes,7.6,7,In Relationship,3,6,20-21,high,at_risk,0.40000000000000036,1,moderate,0.57,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+515,20,Female,Undergraduate,Singapore,5.2,TikTok,Yes,6.9,6,Single,3,7,20-21,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+516,22,Male,Graduate,Malaysia,5.6,WhatsApp,Yes,6.7,6,Single,3,7,22-24,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+517,19,Female,Undergraduate,UAE,6.6,Instagram,Yes,6.4,5,In Relationship,4,8,18-19,very_high,addicted,1.5999999999999996,1,moderate,0.65,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+518,21,Male,Graduate,Poland,4.1,Facebook,No,8.0,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+519,20,Female,Undergraduate,India,6.9,WhatsApp,Yes,5.9,5,In Relationship,4,8,20-21,very_high,addicted,2.0999999999999996,1,moderate,0.675,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+520,22,Male,Graduate,Canada,4.7,TikTok,Yes,7.5,7,Single,3,6,22-24,high,at_risk,0.5,1,moderate,0.575,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+521,19,Female,Undergraduate,Brazil,6.0,WhatsApp,Yes,6.5,6,Single,3,7,18-19,very_high,at_risk,1.5,1,moderate,0.6349999999999999,6.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+522,21,Male,Graduate,China,4.3,WeChat,No,8.0,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+523,20,Female,Undergraduate,Netherlands,3.6,Instagram,No,8.4,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+524,22,Male,Graduate,New Zealand,4.5,Facebook,Yes,7.7,7,In Relationship,3,6,22-24,high,at_risk,0.2999999999999998,1,moderate,0.565,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+525,19,Female,Undergraduate,Singapore,5.3,TikTok,Yes,6.8,6,Single,3,7,18-19,very_high,at_risk,1.2000000000000002,1,moderate,0.62,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+526,21,Male,Graduate,Malaysia,5.7,WhatsApp,Yes,6.6,6,Single,3,7,20-21,very_high,at_risk,1.4000000000000004,1,moderate,0.63,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+527,20,Female,Undergraduate,UAE,6.7,Instagram,Yes,6.3,5,In Relationship,4,8,20-21,very_high,addicted,1.7000000000000002,1,moderate,0.655,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+528,22,Male,Graduate,Poland,4.0,Facebook,No,8.1,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+529,19,Female,Undergraduate,India,7.0,WhatsApp,Yes,5.8,5,In Relationship,4,8,18-19,very_high,addicted,2.2,1,moderate,0.68,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+530,21,Male,Graduate,Canada,4.6,Instagram,Yes,7.6,7,Single,3,6,20-21,high,at_risk,0.40000000000000036,1,moderate,0.57,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+531,20,Female,Undergraduate,Brazil,5.9,TikTok,Yes,6.6,6,Single,3,7,20-21,very_high,at_risk,1.4000000000000004,1,moderate,0.63,7.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+532,22,Male,Graduate,China,4.2,WeChat,No,8.1,7,In Relationship,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+533,19,Female,Undergraduate,Netherlands,3.5,Instagram,No,8.5,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+534,21,Male,Graduate,New Zealand,4.4,Facebook,Yes,7.8,7,In Relationship,3,6,20-21,high,at_risk,0.20000000000000018,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+535,20,Female,Undergraduate,Singapore,5.4,TikTok,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+536,22,Male,Graduate,Malaysia,5.8,WhatsApp,Yes,6.5,6,Single,3,7,22-24,very_high,at_risk,1.5,1,moderate,0.6349999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+537,19,Female,Undergraduate,UAE,6.8,Instagram,Yes,6.2,5,In Relationship,4,8,18-19,very_high,addicted,1.7999999999999998,1,moderate,0.66,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+538,21,Male,Graduate,Poland,3.9,Facebook,No,8.2,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+539,20,Female,Undergraduate,India,7.1,WhatsApp,Yes,5.7,5,In Relationship,4,8,20-21,very_high,addicted,2.3,1,moderate,0.685,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+540,22,Male,Graduate,Canada,4.5,TikTok,Yes,7.7,7,Single,3,6,22-24,high,at_risk,0.2999999999999998,1,moderate,0.565,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+541,19,Female,Undergraduate,Brazil,5.8,WhatsApp,Yes,6.7,6,Single,3,7,18-19,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,6.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+542,21,Male,Graduate,China,4.1,WeChat,No,8.2,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+543,20,Female,Undergraduate,Netherlands,3.4,Instagram,No,8.6,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+544,22,Male,Graduate,New Zealand,4.3,Instagram,Yes,7.9,7,In Relationship,3,6,22-24,high,at_risk,0.09999999999999964,1,moderate,0.5549999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+545,19,Female,Undergraduate,Singapore,5.5,TikTok,Yes,6.6,6,Single,3,7,18-19,very_high,at_risk,1.4000000000000004,1,moderate,0.63,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+546,21,Male,Graduate,Malaysia,5.9,WhatsApp,Yes,6.4,6,Single,3,7,20-21,very_high,at_risk,1.5999999999999996,1,moderate,0.64,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+547,20,Female,Undergraduate,UAE,6.9,Instagram,Yes,6.1,5,In Relationship,4,8,20-21,very_high,addicted,1.9000000000000004,1,moderate,0.665,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+548,22,Male,Graduate,Poland,3.8,Facebook,No,8.3,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+549,19,Female,Undergraduate,India,7.2,WhatsApp,Yes,5.6,5,In Relationship,4,8,18-19,very_high,addicted,2.4000000000000004,1,moderate,0.6900000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+550,21,Male,Graduate,Canada,4.4,Instagram,Yes,7.8,7,Single,3,6,20-21,high,at_risk,0.20000000000000018,1,moderate,0.5599999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+551,20,Female,Undergraduate,Brazil,5.7,TikTok,Yes,6.8,6,Single,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.62,7.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+552,22,Male,Graduate,China,4.0,WeChat,No,8.3,7,In Relationship,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+553,19,Female,Undergraduate,Netherlands,3.3,Instagram,No,8.7,8,Single,2,4,18-19,high,no_risk,0.0,1,high,0.5,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+554,21,Male,Graduate,New Zealand,4.2,Facebook,Yes,8.0,7,In Relationship,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+555,20,Female,Undergraduate,Singapore,5.6,TikTok,Yes,6.5,6,Single,3,7,20-21,very_high,at_risk,1.5,1,moderate,0.6349999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+556,22,Male,Graduate,Malaysia,6.0,WhatsApp,Yes,6.3,6,Single,3,7,22-24,very_high,at_risk,1.7000000000000002,1,moderate,0.6449999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+557,19,Female,Undergraduate,UAE,7.0,Instagram,Yes,6.0,5,In Relationship,4,8,18-19,very_high,addicted,2.0,1,moderate,0.67,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+558,21,Male,Graduate,Poland,3.7,Facebook,No,8.4,7,Single,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+559,20,Female,Undergraduate,India,7.3,WhatsApp,Yes,5.5,5,In Relationship,4,8,20-21,very_high,addicted,2.5,1,moderate,0.6950000000000001,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+560,22,Male,Graduate,Canada,4.3,TikTok,Yes,7.9,7,Single,3,6,22-24,high,at_risk,0.09999999999999964,1,moderate,0.5549999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+561,19,Female,Undergraduate,Brazil,5.6,WhatsApp,Yes,6.9,6,Single,3,7,18-19,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,6.4,0.9,pandemic_cohort,very_high,0.8333333333333334
+562,21,Male,Graduate,China,3.9,WeChat,No,8.4,7,In Relationship,2,5,20-21,high,no_risk,0.0,1,moderate,0.51,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+563,20,Female,Undergraduate,Netherlands,3.2,Instagram,No,8.8,8,Single,2,4,20-21,high,no_risk,0.0,1,high,0.5,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+564,22,Male,Graduate,New Zealand,4.1,Instagram,Yes,8.1,7,In Relationship,3,6,22-24,high,at_risk,0.0,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+565,19,Female,Undergraduate,Singapore,5.7,TikTok,Yes,6.4,6,Single,3,7,18-19,very_high,at_risk,1.5999999999999996,1,moderate,0.64,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+566,21,Male,Graduate,Malaysia,6.1,WhatsApp,Yes,6.2,6,Single,3,7,20-21,very_high,at_risk,1.7999999999999998,1,moderate,0.65,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+567,20,Female,Undergraduate,UAE,7.1,Instagram,Yes,5.9,5,In Relationship,4,8,20-21,very_high,addicted,2.0999999999999996,1,moderate,0.675,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+568,22,Male,Graduate,Poland,3.6,Facebook,No,8.5,7,Single,2,5,22-24,high,no_risk,0.0,1,moderate,0.51,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+569,19,Female,Undergraduate,India,7.4,WhatsApp,Yes,5.4,5,In Relationship,4,8,18-19,very_high,addicted,2.5999999999999996,1,moderate,0.7000000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+570,21,Male,Graduate,Canada,4.2,Instagram,Yes,8.0,7,Single,3,6,20-21,high,at_risk,0.0,1,moderate,0.5499999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+571,20,Female,Undergraduate,Spain,6.1,Instagram,Yes,7.2,5,Single,4,7,20-21,very_high,at_risk,0.7999999999999998,1,moderate,0.57,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+572,23,Male,Graduate,Denmark,3.8,Twitter,No,7.8,8,In Relationship,2,4,22-24,high,no_risk,0.20000000000000018,1,high,0.51,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+573,19,Female,Undergraduate,Ireland,5.5,TikTok,Yes,6.8,6,Single,4,8,18-19,very_high,addicted,1.2000000000000002,1,moderate,0.66,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+574,22,Male,Graduate,India,7.2,Facebook,Yes,5.9,4,Single,5,9,22-24,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+575,21,Female,Undergraduate,Switzerland,4.2,Instagram,No,7.5,7,In Relationship,2,5,20-21,high,no_risk,0.5,1,moderate,0.535,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+576,24,Male,Graduate,Turkey,6.8,TikTok,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+577,20,Female,Undergraduate,USA,5.9,Instagram,Yes,6.7,6,In Relationship,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+578,22,Male,Graduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8,22-24,very_high,addicted,1.9000000000000004,1,moderate,0.665,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+579,19,Female,Undergraduate,France,4.7,Twitter,No,7.4,7,Single,2,5,18-19,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+580,23,Male,Graduate,Canada,5.2,Instagram,Yes,7.0,6,In Relationship,3,6,22-24,very_high,at_risk,1.0,1,moderate,0.57,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+581,21,Female,Undergraduate,UK,6.3,TikTok,Yes,6.4,5,Single,4,8,20-21,very_high,addicted,1.5999999999999996,1,moderate,0.65,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+582,24,Male,Graduate,Italy,4.9,Facebook,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+583,20,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,5,Single,4,8,20-21,very_high,addicted,2.0,1,moderate,0.67,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+584,22,Male,Graduate,China,5.8,WeChat,Yes,6.5,6,In Relationship,3,7,22-24,very_high,at_risk,1.5,1,moderate,0.6349999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+585,19,Female,Undergraduate,Japan,4.5,Twitter,No,7.6,8,Single,2,4,18-19,high,no_risk,0.40000000000000036,1,high,0.52,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+586,23,Male,Graduate,Poland,6.4,Facebook,Yes,6.3,5,Single,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+587,21,Female,Undergraduate,Finland,4.1,Instagram,No,7.7,7,In Relationship,2,5,20-21,high,no_risk,0.2999999999999998,1,moderate,0.525,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+588,24,Male,Graduate,Spain,6.6,TikTok,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+589,20,Female,Undergraduate,Denmark,4.4,Instagram,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+590,22,Male,Graduate,Ireland,5.7,Twitter,Yes,6.8,6,Single,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+591,19,Female,Undergraduate,India,7.0,Instagram,Yes,5.8,4,Single,5,9,18-19,very_high,addicted,2.2,1,low,0.6900000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+592,23,Male,Graduate,Switzerland,4.3,Facebook,No,7.5,7,In Relationship,2,5,22-24,high,no_risk,0.5,1,moderate,0.535,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+593,21,Female,Undergraduate,Turkey,6.9,TikTok,Yes,6.1,5,Single,4,8,20-21,very_high,addicted,1.9000000000000004,1,moderate,0.665,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+594,24,Male,Graduate,USA,5.6,Instagram,Yes,6.9,6,In Relationship,3,7,22-24,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+595,20,Female,Undergraduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8,20-21,very_high,addicted,1.7000000000000002,1,moderate,0.655,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+596,21,Male,Undergraduate,France,5.8,Instagram,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+597,23,Female,Graduate,Canada,4.9,TikTok,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+598,20,Male,Undergraduate,UK,6.4,Facebook,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+599,22,Female,Graduate,Italy,5.1,Twitter,No,7.1,7,In Relationship,2,5,22-24,very_high,no_risk,0.9000000000000004,1,moderate,0.555,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+600,19,Male,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,4,8,18-19,very_high,addicted,2.0,1,low,0.64,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+601,24,Female,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+602,21,Male,Undergraduate,Japan,4.3,Twitter,No,7.6,8,Single,2,4,20-21,high,no_risk,0.40000000000000036,1,high,0.52,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+603,23,Female,Graduate,Poland,6.2,Instagram,Yes,6.4,5,Single,4,8,22-24,very_high,addicted,1.5999999999999996,1,moderate,0.65,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+604,20,Male,Undergraduate,Finland,4.5,Facebook,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+605,22,Female,Graduate,Spain,6.3,TikTok,Yes,6.3,5,Single,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+606,19,Male,Undergraduate,Denmark,4.7,Instagram,No,7.2,7,In Relationship,2,5,18-19,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+607,24,Female,Graduate,Ireland,5.9,Twitter,Yes,6.6,6,Single,3,7,22-24,very_high,at_risk,1.4000000000000004,1,moderate,0.63,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+608,21,Male,Undergraduate,India,7.1,Facebook,Yes,5.7,4,Single,5,9,20-21,very_high,addicted,2.3,1,low,0.695,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+609,23,Female,Graduate,Switzerland,4.4,Instagram,No,7.4,7,In Relationship,2,5,22-24,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+610,20,Male,Undergraduate,Turkey,6.6,TikTok,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+611,22,Female,Graduate,USA,5.4,Instagram,Yes,6.9,6,In Relationship,3,7,22-24,very_high,at_risk,1.0999999999999996,1,moderate,0.6149999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+612,19,Male,Undergraduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8,18-19,very_high,addicted,1.9000000000000004,1,moderate,0.665,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+613,24,Female,Graduate,France,4.8,Twitter,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+614,21,Male,Undergraduate,Canada,5.7,Instagram,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+615,23,Female,Graduate,UK,6.1,TikTok,Yes,6.4,5,Single,4,8,22-24,very_high,addicted,1.5999999999999996,1,moderate,0.65,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+616,20,Male,Undergraduate,Italy,4.6,Facebook,No,7.2,7,In Relationship,2,5,20-21,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+617,22,Female,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,22-24,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+618,19,Male,Undergraduate,China,5.6,WeChat,Yes,6.8,6,In Relationship,3,7,18-19,very_high,at_risk,1.2000000000000002,1,moderate,0.62,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+619,24,Female,Graduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4,22-24,high,no_risk,0.5,1,high,0.525,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+620,21,Male,Undergraduate,Poland,6.3,TikTok,Yes,6.3,5,Single,4,8,20-21,very_high,addicted,1.7000000000000002,1,moderate,0.655,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+621,23,Female,Graduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,22-24,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+622,20,Male,Undergraduate,Spain,6.5,Facebook,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+623,22,Female,Graduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+624,19,Male,Undergraduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7,18-19,very_high,at_risk,1.4000000000000004,1,moderate,0.63,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+625,24,Female,Graduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9,22-24,very_high,addicted,2.2,1,low,0.6900000000000001,11.4,0.7,pre_pandemic_cohort,high,0.6666666666666666
+626,21,Male,Undergraduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,20-21,high,no_risk,0.7000000000000002,1,moderate,0.545,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+627,23,Female,Graduate,Turkey,6.7,Instagram,Yes,6.1,5,Single,4,8,22-24,very_high,addicted,1.9000000000000004,1,moderate,0.665,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+628,20,Male,Undergraduate,USA,5.5,Twitter,Yes,6.8,6,In Relationship,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.62,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+629,22,Female,Graduate,Mexico,6.4,Facebook,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+630,19,Male,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5,18-19,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+631,24,Female,Graduate,Canada,5.6,TikTok,Yes,6.7,6,Single,3,7,22-24,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+632,21,Male,Undergraduate,UK,6.2,Facebook,Yes,6.3,5,Single,4,8,20-21,very_high,addicted,1.7000000000000002,1,moderate,0.655,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+633,23,Female,Graduate,Italy,4.8,Twitter,No,7.1,7,In Relationship,2,5,22-24,high,no_risk,0.9000000000000004,1,moderate,0.555,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+634,20,Male,Undergraduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9,20-21,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+635,22,Female,Graduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7,22-24,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+636,19,Male,Undergraduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4,18-19,high,no_risk,0.5999999999999996,1,high,0.53,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+637,24,Female,Graduate,Poland,6.1,TikTok,Yes,6.4,5,Single,4,8,22-24,very_high,addicted,1.5999999999999996,1,moderate,0.65,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+638,21,Male,Undergraduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5,20-21,high,no_risk,0.5,1,moderate,0.535,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+639,23,Female,Graduate,Spain,6.4,Facebook,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+640,20,Male,Undergraduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5,20-21,high,no_risk,0.7000000000000002,1,moderate,0.545,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+641,22,Female,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,22-24,very_high,at_risk,1.5,1,moderate,0.6349999999999999,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+642,19,Male,Undergraduate,India,7.2,TikTok,Yes,5.7,4,Single,5,9,18-19,very_high,addicted,2.3,1,low,0.695,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+643,24,Female,Graduate,Switzerland,4.6,Facebook,No,7.2,7,In Relationship,2,5,22-24,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+644,21,Male,Undergraduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8,20-21,very_high,addicted,2.0,1,moderate,0.67,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+645,23,Female,Graduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+646,22,Male,Graduate,Mexico,6.3,Facebook,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+647,20,Female,Undergraduate,France,4.8,Instagram,No,7.1,7,In Relationship,2,5,20-21,high,no_risk,0.9000000000000004,1,moderate,0.555,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+648,23,Male,Graduate,Canada,5.7,TikTok,Yes,6.6,6,Single,3,7,22-24,very_high,at_risk,1.4000000000000004,1,moderate,0.63,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+649,21,Female,Undergraduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8,20-21,very_high,addicted,1.7000000000000002,1,moderate,0.655,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+650,24,Male,Graduate,Italy,4.7,Facebook,No,7.2,7,In Relationship,2,5,22-24,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+651,19,Female,Undergraduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,18-19,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+652,22,Male,Graduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7,22-24,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+653,20,Female,Undergraduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4,20-21,high,no_risk,0.5,1,high,0.525,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+654,23,Male,Graduate,Poland,6.2,TikTok,Yes,6.3,5,Single,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+655,21,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+656,24,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8,22-24,very_high,addicted,1.9000000000000004,1,moderate,0.665,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+657,19,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,18-19,high,no_risk,0.7000000000000002,1,moderate,0.545,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+658,22,Male,Graduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7,22-24,very_high,at_risk,1.4000000000000004,1,moderate,0.63,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+659,20,Female,Undergraduate,India,7.1,TikTok,Yes,5.8,4,Single,5,9,20-21,very_high,addicted,2.2,1,low,0.6900000000000001,7.4,0.9,pandemic_cohort,high,0.6666666666666666
+660,23,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+661,21,Female,Undergraduate,Turkey,6.7,Instagram,Yes,6.0,5,Single,4,8,20-21,very_high,addicted,2.0,1,moderate,0.67,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+662,24,Male,Graduate,USA,5.4,Twitter,Yes,6.8,6,In Relationship,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+663,19,Female,Undergraduate,Mexico,6.4,TikTok,Yes,6.2,5,Single,4,8,18-19,very_high,addicted,1.7999999999999998,1,moderate,0.66,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+664,22,Male,Graduate,France,4.7,Facebook,No,7.2,7,In Relationship,2,5,22-24,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+665,20,Female,Undergraduate,Canada,5.6,Instagram,Yes,6.7,6,Single,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+666,23,Male,Graduate,UK,6.3,Twitter,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+667,21,Female,Undergraduate,Italy,4.8,TikTok,No,7.1,7,In Relationship,2,5,20-21,high,no_risk,0.9000000000000004,1,moderate,0.555,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+668,24,Male,Graduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9,22-24,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+669,19,Female,Undergraduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7,18-19,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+670,22,Male,Graduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4,22-24,high,no_risk,0.5999999999999996,1,high,0.53,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+671,20,Female,Undergraduate,Poland,6.1,Facebook,Yes,6.4,5,Single,4,8,20-21,very_high,addicted,1.5999999999999996,1,moderate,0.65,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+672,23,Male,Graduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5,22-24,high,no_risk,0.5,1,moderate,0.535,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+673,21,Female,Undergraduate,Spain,6.4,TikTok,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+674,24,Male,Graduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+675,19,Female,Undergraduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,18-19,very_high,at_risk,1.5,1,moderate,0.6349999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+676,22,Male,Graduate,India,7.2,Facebook,Yes,5.7,4,Single,5,9,22-24,very_high,addicted,2.3,1,low,0.695,9.4,0.7,pandemic_cohort,high,0.6666666666666666
+677,20,Female,Undergraduate,Switzerland,4.6,TikTok,No,7.2,7,In Relationship,2,5,20-21,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+678,23,Male,Graduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8,22-24,very_high,addicted,2.0,1,moderate,0.67,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+679,21,Female,Undergraduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7,20-21,very_high,at_risk,1.2000000000000002,1,moderate,0.62,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+680,24,Male,Graduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,11.4,0.7,pre_pandemic_cohort,high,0.6666666666666666
+681,19,Female,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5,18-19,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+682,22,Male,Graduate,Canada,5.8,TikTok,Yes,6.6,6,Single,3,7,22-24,very_high,at_risk,1.4000000000000004,1,moderate,0.63,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+683,20,Female,Undergraduate,UK,6.1,Twitter,Yes,6.4,5,Single,4,8,20-21,very_high,addicted,1.5999999999999996,1,moderate,0.65,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+684,23,Male,Graduate,Italy,4.8,Facebook,No,7.1,7,In Relationship,2,5,22-24,high,no_risk,0.9000000000000004,1,moderate,0.555,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+685,21,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,5,9,20-21,very_high,addicted,2.0,1,low,0.68,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+686,24,Male,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7,22-24,very_high,at_risk,1.2000000000000002,1,moderate,0.62,11.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+687,19,Female,Undergraduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4,18-19,high,no_risk,0.5,1,high,0.525,6.4,0.9,pandemic_cohort,low,0.16666666666666666
+688,22,Male,Graduate,Poland,6.3,TikTok,Yes,6.2,5,Single,4,8,22-24,very_high,addicted,1.7999999999999998,1,moderate,0.66,9.4,0.7,pandemic_cohort,medium,0.46111111111111114
+689,20,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,20-21,high,no_risk,0.5999999999999996,1,moderate,0.5399999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+690,23,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8,22-24,very_high,addicted,1.9000000000000004,1,moderate,0.665,10.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+691,21,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,20-21,high,no_risk,0.7000000000000002,1,moderate,0.545,8.4,0.9,pandemic_cohort,low,0.16666666666666666
+692,24,Male,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,22-24,very_high,at_risk,1.5,1,moderate,0.6349999999999999,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+693,19,Female,Undergraduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9,18-19,very_high,addicted,2.2,1,low,0.6900000000000001,6.4,0.9,pandemic_cohort,high,0.6666666666666666
+694,22,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,22-24,high,no_risk,0.7000000000000002,1,moderate,0.545,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+695,20,Female,Undergraduate,Turkey,6.6,Instagram,Yes,6.1,5,Single,4,8,20-21,very_high,addicted,1.9000000000000004,1,moderate,0.665,7.4,0.9,pandemic_cohort,medium,0.46111111111111114
+696,23,Male,Graduate,USA,5.5,Twitter,Yes,6.7,6,In Relationship,3,7,22-24,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+697,21,Female,Undergraduate,Mexico,6.3,TikTok,Yes,6.2,5,Single,4,8,20-21,very_high,addicted,1.7999999999999998,1,moderate,0.66,8.4,0.9,pandemic_cohort,high,0.6666666666666666
+698,24,Male,Graduate,France,4.8,Facebook,No,7.1,7,In Relationship,2,5,22-24,high,no_risk,0.9000000000000004,1,moderate,0.555,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+699,19,Female,Undergraduate,Canada,5.7,Instagram,Yes,6.6,6,Single,3,7,18-19,very_high,at_risk,1.4000000000000004,1,moderate,0.63,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
+700,22,Male,Graduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8,22-24,very_high,addicted,1.7000000000000002,1,moderate,0.655,9.4,0.7,pandemic_cohort,low,0.16666666666666666
+701,20,Female,Undergraduate,Italy,4.7,TikTok,No,7.2,7,In Relationship,2,5,20-21,high,no_risk,0.7999999999999998,1,moderate,0.5499999999999999,7.4,0.9,pandemic_cohort,low,0.16666666666666666
+702,23,Male,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,22-24,very_high,addicted,2.0999999999999996,1,low,0.6849999999999999,10.4,0.7,pre_pandemic_cohort,medium,0.46111111111111114
+703,21,Female,Undergraduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7,20-21,very_high,at_risk,1.2999999999999998,1,moderate,0.6249999999999999,8.4,0.9,pandemic_cohort,medium,0.46111111111111114
+704,24,Male,Graduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4,22-24,high,no_risk,0.5,1,high,0.525,11.4,0.7,pre_pandemic_cohort,low,0.16666666666666666
+705,19,Female,Undergraduate,Poland,6.2,Facebook,Yes,6.3,5,Single,4,8,18-19,very_high,addicted,1.7000000000000002,1,moderate,0.655,6.4,0.9,pandemic_cohort,medium,0.46111111111111114
