@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Predicción - Score de Adicción y Salud Mental</title>
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0f172a;color:#e6eef8;margin:0}
+    .card{background:linear-gradient(180deg,#0b1220 0%, #071427 100%);border-radius:12px;padding:24px;width:420px;box-shadow:0 8px 30px rgba(2,6,23,0.7)}
+    h1{font-size:20px;margin:0 0 12px}
+    label{display:block;margin:12px 0 6px;font-size:13px;color:#9fb0d7}
+    input, select{width:100%;padding:10px;border-radius:8px;border:1px solid #1e3250;background:#071427;color:#e6eef8;font-size:14px}
+    button{margin-top:16px;width:100%;padding:10px;border-radius:10px;border:0;background:#2563eb;color:white;font-weight:600;cursor:pointer}
+    .result{margin-top:16px;padding:12px;border-radius:8px;background:rgba(255,255,255,0.03);font-size:14px}
+    .small{font-size:12px;color:#9fb0d7}
+    .row{display:flex;gap:10px}
+    .half{flex:1}
+    footer{margin-top:10px;font-size:12px;color:#7f9cc2}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Predicción — Adicción / Salud Mental / Riesgos</h1>
+
+    <label for="age">Edad</label>
+    <input id="age" type="number" min="10" max="100" value="19" />
+
+    <label for="usage">Horas diarias en redes sociales (ej: 4.5)</label>
+    <input id="usage" type="number" min="0" max="24" step="0.1" value="4.5" />
+
+    <label for="sleep">Horas de sueño por noche (ej: 6.5)</label>
+    <input id="sleep" type="number" min="0" max="24" step="0.1" value="6.0" />
+
+    <label for="gender">Género</label>
+    <select id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <button id="predictBtn">Predecir</button>
+
+    <div id="output" class="result" aria-live="polite" hidden>
+      <div id="scoreAddiction"></div>
+      <div id="scoreMental"></div>
+      <div id="riskLevel"></div>
+      <div id="acadRisk"></div>
+      <div class="small" style="margin-top:8px">Nota: esta página usa una fórmula de aproximación (cliente). Para usar tus modelos reales entrenados con sklearn necesitas exportarlos y convertirlos a JavaScript/JSON o usar un servidor.</div>
+    </div>
+
+    <footer>Listo para subir a GitHub Pages — guarda como <code>index.html</code> y súbelo.</footer>
+  </main>
+
+  <script>
+    // ======= FUNCIONES DE PREDICCIÓN (APROXIMACIONES CLIENT-SIDE) =======
+    // Observación: RandomForest de sklearn no se ejecuta nativamente en páginas estáticas.
+    // Este archivo implementa funciones heurísticas approximadas para que la demo funcione
+    // y devuelva resultados en el mismo HTML. Más abajo explico cómo reemplazarlas por
+    // tu modelo exportado si lo deseas.
+
+    function clamp(v, a, b){ return Math.max(a, Math.min(b, v)); }
+
+    // Normalizaciones simples basadas en rangos plausibles
+    function normalizeAge(age){
+      const min = 13, max = 30; // ajustar según tu dataset
+      return clamp((age - min) / (max - min), 0, 1);
+    }
+    function normalizeUsage(hours){
+      const max = 24;
+      return clamp(hours / max, 0, 1);
+    }
+    function normalizeSleep(hours){
+      const max = 12;
+      return clamp(hours / max, 0, 1);
+    }
+
+    // Predict addiction score (0..10) - fórmula heurística
+    function predictAddiction({age, usage, sleep, genderEncoded}){
+      const a = normalizeAge(age); // 0..1
+      const u = normalizeUsage(usage); // 0..1
+      const s = normalizeSleep(sleep); // 0..1
+      // pesos elegidos para imitar la idea: más uso -> mayor adicción, menos sueño -> mayor adicción
+      const scoreRaw = (0.12 * a) + (0.6 * u) + (0.25 * (1 - s)) + (0.1 * genderEncoded);
+      const score = clamp(scoreRaw * 10, 0, 10);
+      return Number(score.toFixed(2));
+    }
+
+    // Predict mental health score (0..10) - heurística que depende de addiction y sueño
+    function predictMental({age, usage, sleep, addictedScore}){
+      const s = normalizeSleep(sleep);
+      // mental health disminuye con adicción y aumenta con sueño; también una pequeña dependencia de edad
+      const ageFactor = (1 - normalizeAge(age)) * 0.1; // los más jóvenes ligeramente peor
+      const raw = 6.5 - (0.6 * (addictedScore/10) * 6.5) + (s * 2.0) + ageFactor;
+      const score = clamp(raw, 0, 10);
+      return Number(score.toFixed(2));
+    }
+
+    // Nivel de riesgo según los bins originales (0-3.4, 3.4-6.6, 6.6-10)
+    function addictionRiskLevel(addictedScore){
+      if(addictedScore <= 3.4) return 'BAJO';
+      if(addictedScore <= 6.6) return 'MEDIO';
+      return 'ALTO';
+    }
+
+    // Riesgo académico heurístico
+    function academicRiskFlag({mentalScore, addictedScore}){
+      // si salud mental mala O adicción alta -> ALTO
+      if(mentalScore < 4 || addictedScore > 7) return 'ALTO';
+      return 'BAJO';
+    }
+
+    // Conexión con la UI
+    document.getElementById('predictBtn').addEventListener('click', ()=>{
+      const age = Number(document.getElementById('age').value);
+      const usage = Number(document.getElementById('usage').value);
+      const sleep = Number(document.getElementById('sleep').value);
+      const gender = document.getElementById('gender').value;
+      const genderEncoded = (gender === 'male') ? 1 : 0;
+
+      // Orden de las columnas que usaste en Python: [Age, Usage, Sleep, Gender]
+      const addictedScore = predictAddiction({age, usage, sleep, genderEncoded});
+      const mentalScore = predictMental({age, usage, sleep, addictedScore});
+      const riskLevel = addictionRiskLevel(addictedScore);
+      const acadRisk = academicRiskFlag({mentalScore, addictedScore});
+
+      document.getElementById('scoreAddiction').textContent = `🔹 Score de Adicción: ${addictedScore}/10`;
+      document.getElementById('scoreMental').textContent = `🔹 Score de Salud Mental: ${mentalScore}/10`;
+      document.getElementById('riskLevel').textContent = `🔹 Nivel de Riesgo de Adicción: ${riskLevel}`;
+      document.getElementById('acadRisk').textContent = `🔹 Riesgo Académico Final: ${acadRisk}`;
+      document.getElementById('output').hidden = false;
+    });
+
+    // ====== INSTRUCCIONES PARA USAR TUS MODELOS REALES ======
+    // Si quieres usar los modelos RandomForest entrenados en Python, tienes 2 rutas principales:
+    // 1) Convertir el modelo a un formato JS (recomendado para páginas estáticas):
+    //    - Usa herramientas como sklearn-porter, m2cgen o sklearn-json-serializer para exportar el modelo
+    //      y luego pega la representación JSON en este fichero y escribe una función predictFromJSON() que
+    //      evalúe los árboles. Esto te dará resultados idénticos al modelo sklearn.
+    // 2) Mantener el modelo en Python y desplegar una pequeña API (Flask/FastAPI) en un servidor o en
+    //    funciones serverless (Vercel, Render, Railway). La página HTML llamaría a esa API por fetch(),
+    //    enviando los inputs y recibiendo las predicciones JSON.
+
+    // Si quieres, puedo:
+    // - Generar un ejemplo de cómo serializar un RandomForest a JSON (m2cgen) y el código JS para evaluarlo
+    // - O crear un ejemplo de API en FastAPI + el fetch() desde este HTML
+    // Dime qué prefieres y te lo doy listo para subir a GitHub.
+  </script>
+</body>
+</html>
